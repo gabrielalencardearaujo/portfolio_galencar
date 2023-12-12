@@ -1,6 +1,6 @@
 import styles from './About.module.css';
 import CardPhoto from './CardPhoto';
-import Introducion from './Introducion';
+import Introduction from './Introduction';
 import AboutMe from './AboutMe';
 
 function About() {
@@ -8,7 +8,7 @@ function About() {
     <section className={styles.containerAbout}>
       <CardPhoto />
       <article>
-        <Introducion />
+        <Introduction />
         <AboutMe />
       </article>
     </section>
