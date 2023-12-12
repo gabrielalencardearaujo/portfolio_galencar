@@ -26,15 +26,21 @@ function Introducion({ setAbout }: stateAbout) {
 
       <div className={styles.mediasContainer}>
         <div className={styles.socialMedias}>
-          <IconSocialMedia href={"https://github.com/gabrielalencardearaujo"}>
+          <IconSocialMedia
+            href={"https://github.com/gabrielalencardearaujo"}
+            describe="Github"
+          >
             <IconGithub />
           </IconSocialMedia>
 
-          <IconSocialMedia href="https://linkedin.com/in/gabriel-alencar-de-araújo">
+          <IconSocialMedia
+            href="https://linkedin.com/in/gabriel-alencar-de-araújo"
+            describe="Linkedin"
+          >
             <IconLinkedin />
           </IconSocialMedia>
 
-          <IconSocialMedia href="">
+          <IconSocialMedia href="" describe="Whatsapp">
             <IconWhatsapp />
           </IconSocialMedia>
         </div>
