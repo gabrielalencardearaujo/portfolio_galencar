@@ -1,0 +1,20 @@
+.containerAbout {
+  display: grid;
+  grid-template-columns: minmax(400px, auto) 2fr;
+  width: 88vw;
+  height: 74vh;
+  margin: 0 auto;
+  border: 1px solid var(--color-primary2);
+  gap: 40px;
+}
+
+.containerAbout > * {
+  border: 1px solid red;
+}
+
+@media only screen and (max-width: 1024px) {
+  .containerAbout {
+    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    max-height: 54vh;
+  }
+}

@@ -23,7 +23,6 @@ function Header() {
         <Theme />
         <Languages />
       </div>
-      
     </header>
   )
 }
