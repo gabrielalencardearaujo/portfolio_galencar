@@ -30,22 +30,8 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list -->
 
 
-# Projeto com Vite+ React.tsx
+# Meu portfolio
 
-### Estruturas de pastas:
-
-`assets`: Armazenar imagens leves, svgs, icons, etc.
-
-`components`: Componentes reutilizaveis na aplicacao, normalmente components que sao unidades (input, button,modal, etc.)
-
-`pages`: Paginas que usam varios componentes. Sao as paginas que serao renderizadas para o cliente.
-
-`hooks`: Funcoes com states personalizadas (useScreenSize, useLocalStorage) e utilizaveis em toda a aplicacao, genericos e normalmente usados em outras aplicacoes tambem.
-
-`services`: Ficam as configuracoes de https clients, normalmente utilizando axios. Onde fica os arquivos que se comunicam com APIs externas.
-
-`store`: Ficam as definicoes de state managers, context api, zustand, redux.
-
-`types`: Armazenam as tipagens de typescript e interfaces que sao comuns em varios arquivos do projetos (interface e types globais)
-
-`util`: Funcoes utilitarias, exemplo: formatCurrency, commonDivision, formatForm,convertTimeZone, etc. Funcoes que sao utilizadas em toda aplicacao e normalmente sao arquivos de js ou ts puros. 
+#### Bem-vindo a minha página. Espero que goste.
+#### Esta página foi feita inteiramente com React + Typescript
+#### Uso vite como bundler.
