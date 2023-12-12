@@ -2,7 +2,7 @@ import React from "react";
 
 function IconGithub() {
   return (
-    <div>
+    <>
       <svg
         width="34"
         height="32"
@@ -17,7 +17,7 @@ function IconGithub() {
           fill="#9C9C9D"
         />
       </svg>
-    </div>
+    </>
   );
 }
 

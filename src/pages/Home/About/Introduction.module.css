@@ -8,7 +8,7 @@
 }
 
 .title {
-  font-size: 3.375rem;
+  font-size: 4.575rem;
   font-weight: bold;
 }
 
@@ -19,4 +19,47 @@
 .content {
   color: var(--color-neutral3);
   font-size: 1.5rem;
+}
+
+.mediasContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 107px;
+}
+
+/* Icons Social Media */
+
+.socialMedias {
+  display: flex;
+  gap: 20px;
+}
+
+.iconSocialMedia {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--color-base6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* About me Link */
+
+.aboutMeLink {
+  cursor: pointer;
+  color: var(--color-base3);
+  font-size: 1.5rem;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.aboutMeLink:hover,
+.aboutMeLink:hover path {
+  color: var(--color-primary2);
+  text-shadow: 0px 0px 12px  var(--color-primary3);
+  fill: var(--color-primary2);
+  stroke: var(--color-primary2);
 }

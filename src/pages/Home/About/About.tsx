@@ -1,15 +1,21 @@
+import React from 'react';
 import styles from './About.module.css';
 import CardPhoto from './CardPhoto';
 import Introduction from './Introduction';
 import AboutMe from './AboutMe';
 
 function About() {
+  const [about, setAbout] = React.useState(false);
+
   return (
     <section className={styles.containerAbout}>
       <CardPhoto />
       <article>
-        <Introduction />
-        <AboutMe />
+        {about ? (
+          <AboutMe />
+          ) : (
+          <Introduction setAbout={setAbout} />
+        )}
       </article>
     </section>
   )

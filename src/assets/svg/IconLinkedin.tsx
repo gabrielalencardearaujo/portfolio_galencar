@@ -2,7 +2,7 @@ import React from "react";
 
 function IconLinkedin() {
   return (
-    <div>
+    <>
       <svg
         width="30"
         height="30"
@@ -22,7 +22,7 @@ function IconLinkedin() {
           </clipPath>
         </defs>
       </svg>
-    </div>
+    </>
   );
 }
 

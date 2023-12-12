@@ -2,7 +2,7 @@ import React from "react";
 
 function IconWhatsapp() {
   return (
-    <div>
+    <>
       <svg
         width="40"
         height="40"
@@ -15,7 +15,7 @@ function IconWhatsapp() {
           fill="#9C9C9D"
         />
       </svg>
-    </div>
+    </>
   );
 }
 

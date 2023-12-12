@@ -56,3 +56,21 @@ ul, li, a {
   color: var(--color-primary2);
   text-shadow: 0px 0px 12px  var(--color-primary3);
 }
+
+.linkInternal:hover .animeRight {
+  animation: animeRight 2s infinite ease-in-out;
+}
+
+@keyframes animeRight {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
