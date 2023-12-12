@@ -1,0 +1,50 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  height: 120px;
+  position: relative;
+}
+
+.logo {
+  margin-left: 10vw;
+  margin-right: auto;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logoDetails {
+  color: var(--color-neutral1);
+  text-shadow: none;
+
+} 
+
+.logoDetails strong {
+  color: var(--color-primary2);
+  text-shadow: 0px 0px 12px  var(--color-primary3);
+}
+
+header div{
+  display: flex;
+  margin-right: 6vw;
+  gap: 3.3vw;
+}
+
+.navLinks {
+  font-size: 1.5rem;
+}
+
+.navLinks ul {
+  display: flex;
+  gap: 3.3vw;
+}
+
+.navLinks li:hover a,
+header span:hover path,
+header span:hover {
+  color: var(--color-primary2) !important;
+  fill: var(--color-primary2);
+  text-shadow: 0px 0px 12px  var(--color-primary3);
+  cursor: pointer;
+}

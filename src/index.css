@@ -1,0 +1,58 @@
+/* Arquivo CSS usado para resetar os estilos. */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,400&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-font: 'Prompt', sans-serif;
+  --secondary-font: 'Fira Sans', sans-serif;
+
+  --color-base1: #9C9C9D;
+  --color-base2: #83818B;
+  --color-base3: #626072;
+  --color-base4: #4A475B;
+  --color-base5: #3D3A50;
+  --color-base6: #2A283C;
+  --color-base7: #181624;
+  --color-base8: #0D0C15;
+  --color-base9: #05040A;
+
+  --color-primary1: #CC4CF9;
+  --color-primary2: #7138EC;
+  --color-primary3: #5B20D8;
+  --color-primary4: #440AC0;
+  --color-primary5: #32009C;
+
+  --color-neutral1: #F7F7F7;
+  --color-neutral2: #D1BBBB;
+  --color-neutral3: #A68080;
+}
+
+html, body {
+  font-family: var(--primary-font);
+  background-color: var(--color-base7);
+  color: var(--color-neutral1);
+}
+
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: none;
+  color: var(--color-neutral1);
+}
+
+:global(.active) {
+  color: var(--color-primary2);
+}
+
+.active {
+  color: var(--color-primary2);
+  text-shadow: 0px 0px 12px  var(--color-primary3);
+}

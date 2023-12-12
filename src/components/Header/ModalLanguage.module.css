@@ -1,0 +1,33 @@
+.containerLanguage span{
+  text-shadow: none;
+}
+
+.modalContainer {
+  background-image: url('../../assets/img/ballon_languages.png');
+  background-repeat: no-repeat;
+  width: 185px;
+  height: 145px;
+  position: absolute;
+  right: -20px;
+  z-index: 20;
+}
+
+.modalContainer div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.btnLanguage {
+  background-color: transparent;
+  color: var(--color-neutral1);
+  letter-spacing: 2%;
+  font-size: 1.125rem;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+}
