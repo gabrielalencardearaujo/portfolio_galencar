@@ -1,11 +1,10 @@
-import { ReactElement } from "react";
 import styles from "./IconsSocialMedia.module.css";
 
 type attrIcon = {
   href: string;
-  children: ReactElement,
+  children: React.ReactNode,
   describe: string,
-};
+}
 
 function IconSocialMedia({ href, children, describe }: attrIcon) {
   
