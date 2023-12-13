@@ -4,8 +4,13 @@
   display: grid;
   border-radius: 25px;
   grid-template-columns: repeat(2, 1fr);
-  border: 1px solid var(--color-base5);
+  outline: 1px solid var(--color-base5);
   overflow: hidden;
+}
+
+.containerClass:hover {
+  outline: 1px solid var(--color-primary2);
+  box-shadow: 0px 0px 6px 0px var(--color-primary3);
 }
 
 img {
@@ -24,10 +29,18 @@ img {
   font-size: 1.275rem;
   font-weight: bold;
   color: var(--color-base1);
+  line-height: 1.75rem;
 }
 
 .dateCourse {
-  font-size: 0.875rem;
+  font-size: 0.675rem;
   font-weight: normal;
   color: var(--color-base3);
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.dateCourse span {
+  text-align: start;
 }

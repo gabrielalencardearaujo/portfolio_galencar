@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./CardFormation.module.css";
+import IconDownload from "../IconDownload/IconDownload";
 
 type CardProps = React.ComponentProps<"img"> & {
   describe: string;
@@ -14,8 +15,11 @@ function CardFormation({ src, alt, describe, dateStart, dateEnd }: CardProps) {
       <div className={styles.content}>
         <p className={styles.describeCourse}>{describe}</p>
         <div className={styles.dateCourse}>
-          <p>Início do Curso: {dateStart}</p>
-          <p>Fim do Curso: {dateEnd}</p>
+          <span>
+            <p>Início do Curso: {dateStart}</p>
+            <p>Fim do Curso: {dateEnd}</p>
+          </span>
+          <IconDownload />
         </div>
       </div>
     </div>
