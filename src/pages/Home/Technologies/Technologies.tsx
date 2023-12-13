@@ -2,6 +2,7 @@ import styles from "./Technologies.module.css";
 import CardFormation from "../../../components/CardFormation/CardFormation";
 import Seta from "../../../components/SVGComponents/Seta";
 import {jsonFormations,TypeJsonFormation} from '../../../services/jsonFormations';
+import { NavLink } from "react-router-dom";
 
 function Technologies() {
   return (
@@ -21,12 +22,15 @@ function Technologies() {
           }
         })}
 
-        <span className={`${styles.leftIdent} aboutMeLink  linkInternal`}>
-          Veja mais
-          <span className="animeLoop">
-            <Seta />
+        <NavLink to="projects" className={styles.leftIdent}>
+          <span className={` aboutMeLink  linkInternal`}>
+            Veja mais
+            <span className="animeLoop">
+              <Seta />
+            </span>
           </span>
-        </span>
+        </NavLink>
+
       </div>
 
       <div className={styles.technologies}>

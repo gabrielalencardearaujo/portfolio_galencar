@@ -1,16 +1,14 @@
 .containerFormation {
   max-width: 90vw;
-  height: 100vh;
-  /* border: 1px solid blue; */
+  height: 120vh;
   margin: 0 auto;
-
+  margin-bottom: 5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 8vw;
 }
 
 .formation, .technologies {
-  /* border: 1px solid red; */
   display: grid;
 }
 
@@ -20,10 +18,15 @@
   color: var(--color-base6);
   letter-spacing: 0.2rem;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .leftIdent {
   justify-self: end;
   margin-right: 10px;
+  margin-top: 3rem;
+}
+
+.leftIdent span {
   font-size: 2rem  
 }
