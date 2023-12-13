@@ -47,7 +47,7 @@ function Introducion({ setAbout }: stateAbout) {
           className={`${styles.aboutMeLink} linkInternal`}
         >
           Sobre Mim
-          <span className="animeRight">
+          <span className="animeLoop">
             <Seta />
           </span>
         </span>
