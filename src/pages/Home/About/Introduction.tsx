@@ -4,10 +4,9 @@ import IconLinkedin from "../../../components/IconsSocialMedia/IconLinkedin";
 import IconWhatsapp from "../../../components/IconsSocialMedia/IconWhatsapp";
 import IconSocialMedia from "../../../components/IconsSocialMedia/IconSocialMedia";
 import Seta from "../../../components/SVGComponents/Seta";
-import { stateAbout } from "./type";
+import { introductionProps } from "./type";
 
-
-function Introducion({ setAbout }: stateAbout) {
+function Introduction({ ...props }: introductionProps) {
   return (
     <div className={`${styles.container} animeEntryRight`}>
       <div>
@@ -39,18 +38,20 @@ function Introducion({ setAbout }: stateAbout) {
             <IconWhatsapp />
           </IconSocialMedia>
         </div>
+
         <span
-          onClick={() => setAbout((value) => !value)}
           className={`${styles.aboutMeLink}  linkInternal`}
+          {...props}
         >
           Sobre Mim
           <span className="animeLoop">
             <Seta />
           </span>
         </span>
+        
       </div>
     </div>
   );
 }
 
-export default Introducion;
+export default Introduction;

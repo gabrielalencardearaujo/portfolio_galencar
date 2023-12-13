@@ -1,5 +1,3 @@
-import { Dispatch, SetStateAction } from "react";
+import React from "react";
 
-export type stateAbout = {
-  setAbout: Dispatch<SetStateAction<boolean>>;
-};
+type introductionProps = React.ComponentProps<'div'>

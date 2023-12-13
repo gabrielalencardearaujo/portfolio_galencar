@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from './About.module.css';
-import CardPhoto from './CardPhoto';
-import Introduction from './Introduction';
-import AboutMe from './AboutMe';
+import React from "react";
+import styles from "./About.module.css";
+import CardPhoto from "./CardPhoto";
+import Introduction from "./Introduction";
+import AboutMe from "./AboutMe";
 
 function About() {
   const [about, setAbout] = React.useState(false);
@@ -12,13 +12,13 @@ function About() {
       <CardPhoto />
       <article>
         {about ? (
-          <AboutMe setAbout={setAbout} />
-          ) : (
-          <Introduction setAbout={setAbout} />
+          <AboutMe onClick={() => setAbout((value) => !value)} />
+        ) : (
+          <Introduction onClick={() => setAbout((value) => !value)} />
         )}
       </article>
     </section>
-  )
+  );
 }
 
 export default About;

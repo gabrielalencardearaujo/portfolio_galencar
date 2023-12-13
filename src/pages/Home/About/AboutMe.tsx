@@ -1,8 +1,8 @@
 import Seta from "../../../components/SVGComponents/SetaLeft";
 import styles from "./Introduction.module.css";
-import { stateAbout } from "./type";
+import { introductionProps } from "./type";
 
-function AboutMe({setAbout}: stateAbout) {
+function AboutMe({...props}: introductionProps) {
   return (
     <article className={`${styles.container} animeEntryRight`}>
       <h2>Um pouco mais sobre mim...</h2>
@@ -26,8 +26,8 @@ function AboutMe({setAbout}: stateAbout) {
         superar limites. Vamos criar algo extraordinário juntos!
       </p>
       <span
-          onClick={() => setAbout((value) => !value)}
           className={`${styles.aboutMeLink} linkInternal`}
+          {...props}
         >
           <span className={`animeLoop`}>
             <Seta />
