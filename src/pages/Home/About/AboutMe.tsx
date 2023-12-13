@@ -32,7 +32,7 @@ function AboutMe({...props}: introductionProps) {
           <span className={`animeLoop`}>
             <Seta />
           </span>
-          Sobre Mim
+          Voltar
         </span>
     </article>
   );
