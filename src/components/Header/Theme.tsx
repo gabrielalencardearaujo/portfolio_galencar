@@ -1,20 +1,31 @@
-import React from 'react';
-import IconThemeLight from '../../assets/svg/IconThemeLight';
-import IconThemeDark from '../../assets/svg/IconThemeDark';
-
+import React from "react";
+import IconThemeLight from "../../assets/svg/IconThemeLight";
+import IconThemeDark from "../../assets/svg/IconThemeDark";
+import styles from "./Header.module.css";
 
 function Theme() {
-  const [dark, setDark] = React.useState(true);
+  const [theme, setTheme] = React.useState(true); //true= darkTheme, false=lightTheme
 
+  React.useEffect(() => {
+    (theme) ? 
+      document.querySelector('html')?.setAttribute('class', 'dark')
+    :
+    document.querySelector('html')?.setAttribute('class', 'light')
+  }, [theme])
 
-  return <>
-    {dark ? (
-        <span onClick={() => setDark(!dark)}><IconThemeLight /></span>
+  return (
+    <>
+      {theme ? (
+        <span className={styles.colorIconTheme} onClick={() => setTheme(!theme)}>
+          <IconThemeLight />
+        </span>
       ) : (
-        <span onClick={() => setDark(!dark)}><IconThemeDark /></span>
-      )
-    }
-  </>
+        <span className={styles.colorIconTheme} onClick={() => setTheme(!theme)}>
+          <IconThemeDark />
+        </span>
+      )}
+    </>
+  );
 }
 
-export default Theme
+export default Theme;

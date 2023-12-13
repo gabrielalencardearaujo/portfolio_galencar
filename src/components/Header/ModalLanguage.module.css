@@ -2,6 +2,10 @@
   text-shadow: none;
 }
 
+.containerLanguage svg path {
+  fill: var(--color-neutral1);
+}
+
 .modalContainer {
   background-image: url('../../assets/img/ballon_languages.png');
   background-repeat: no-repeat;
@@ -24,7 +28,7 @@
 
 .btnLanguage {
   background-color: transparent;
-  color: var(--color-neutral1);
+  color: #fff;
   letter-spacing: 2%;
   font-size: 1.125rem;
   border: none;
