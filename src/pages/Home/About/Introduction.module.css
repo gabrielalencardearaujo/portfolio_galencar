@@ -35,27 +35,6 @@
   gap: 20px;
 }
 
-/* About me Link */
-
-.aboutMeLink {
-  cursor: pointer;
-  color: var(--color-base3);
-  font-size: 1.5rem;
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  width: fit-content;
-
-}
-
-.aboutMeLink:hover,
-.aboutMeLink:hover path {
-  color: var(--color-primary2);
-  text-shadow: 0px 0px 12px  var(--color-primary3);
-  fill: var(--color-primary2);
-  stroke: var(--color-primary2);
-}
-
 /* About Me */
 
 h2 {

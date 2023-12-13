@@ -40,7 +40,7 @@ function Introduction({ ...props }: introductionProps) {
         </div>
 
         <span
-          className={`${styles.aboutMeLink}  linkInternal`}
+          className={`aboutMeLink  linkInternal`}
           {...props}
         >
           Sobre Mim

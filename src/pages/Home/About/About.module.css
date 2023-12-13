@@ -13,6 +13,6 @@
 @media only screen and (max-width: 1024px) {
   .containerAbout {
     grid-template-columns: repeat(auto-fit, minmax(320px, auto));
-    max-height: 54vh;
+    max-height: 100%;
   }
 }

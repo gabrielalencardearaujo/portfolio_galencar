@@ -1,0 +1,33 @@
+.containerClass {
+  width: 100%;
+  height: 240px;
+  display: grid;
+  border-radius: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  border: 1px solid var(--color-base5);
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 240px;
+}
+
+.content {
+  padding: 2rem 1rem;
+  display: grid;
+  align-items: center;
+  gap: 32px;
+}
+
+.describeCourse {
+  font-size: 1.275rem;
+  font-weight: bold;
+  color: var(--color-base1);
+}
+
+.dateCourse {
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: var(--color-base3);
+}

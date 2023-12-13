@@ -26,7 +26,7 @@ function AboutMe({...props}: introductionProps) {
         superar limites. Vamos criar algo extraordinário juntos!
       </p>
       <span
-          className={`${styles.aboutMeLink} linkInternal`}
+          className={`aboutMeLink linkInternal`}
           {...props}
         >
           <span className={`animeLoop`}>
