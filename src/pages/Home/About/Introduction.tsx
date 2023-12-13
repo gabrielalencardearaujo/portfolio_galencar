@@ -3,16 +3,13 @@ import IconGithub from "../../../components/IconsSocialMedia/IconGithub";
 import IconLinkedin from "../../../components/IconsSocialMedia/IconLinkedin";
 import IconWhatsapp from "../../../components/IconsSocialMedia/IconWhatsapp";
 import IconSocialMedia from "../../../components/IconsSocialMedia/IconSocialMedia";
-import { Dispatch, SetStateAction } from "react";
-import Seta from "../../../assets/svg/Seta";
+import Seta from "../../../components/SVGComponents/Seta";
+import { stateAbout } from "./type";
 
-type stateAbout = {
-  setAbout: Dispatch<SetStateAction<boolean>>;
-};
 
 function Introducion({ setAbout }: stateAbout) {
   return (
-    <div className={styles.IntroductionContainer}>
+    <div className={`${styles.container} animeEntryRight`}>
       <div>
         <h1 className={`${styles.title}`}>
           Desenvolvedor <span className="active">FullStack</span>_
@@ -44,7 +41,7 @@ function Introducion({ setAbout }: stateAbout) {
         </div>
         <span
           onClick={() => setAbout((value) => !value)}
-          className={`${styles.aboutMeLink} linkInternal`}
+          className={`${styles.aboutMeLink}  linkInternal`}
         >
           Sobre Mim
           <span className="animeLoop">

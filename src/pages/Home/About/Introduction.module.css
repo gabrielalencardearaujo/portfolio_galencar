@@ -1,4 +1,4 @@
-.IntroductionContainer {
+.container {
   display: grid;
   gap: 20%;
   height: 100%;
@@ -44,6 +44,8 @@
   display: flex;
   gap: 24px;
   align-items: center;
+  width: fit-content;
+
 }
 
 .aboutMeLink:hover,
@@ -52,4 +54,16 @@
   text-shadow: 0px 0px 12px  var(--color-primary3);
   fill: var(--color-primary2);
   stroke: var(--color-primary2);
+}
+
+/* About Me */
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-neutral3);
+}
+
+p {
+  font-size: 1.35rem;
 }

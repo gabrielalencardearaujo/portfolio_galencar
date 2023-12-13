@@ -12,7 +12,7 @@ function About() {
       <CardPhoto />
       <article>
         {about ? (
-          <AboutMe />
+          <AboutMe setAbout={setAbout} />
           ) : (
           <Introduction setAbout={setAbout} />
         )}

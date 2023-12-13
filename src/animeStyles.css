@@ -1,0 +1,49 @@
+.linkInternal:hover .animeLoop {
+  animation: animeLoop 2s infinite ease-in-out;
+}
+
+.animeEntryRight {
+  animation: animeEntryRight .5s ease-in-out;
+}
+
+.animeEntryLeft {
+  animation: animeEntryLeft .5s ease-in-out;
+}
+
+@keyframes animeLoop {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes animeEntryRight {
+  from {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+} 
+
+@keyframes animeEntryLeft {
+  from {
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+} 
