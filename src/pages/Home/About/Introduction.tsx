@@ -1,8 +1,8 @@
 import styles from "./Introduction.module.css";
-import IconGithub from "../../../assets/svg/IconGithub";
-import IconLinkedin from "../../../assets/svg/IconLinkedin";
-import IconWhatsapp from "../../../assets/svg/IconWhatsapp";
-import IconSocialMedia from "./IconSocialMedia";
+import IconGithub from "../../../components/IconsSocialMedia/IconGithub";
+import IconLinkedin from "../../../components/IconsSocialMedia/IconLinkedin";
+import IconWhatsapp from "../../../components/IconsSocialMedia/IconWhatsapp";
+import IconSocialMedia from "../../../components/IconsSocialMedia/IconSocialMedia";
 import { Dispatch, SetStateAction } from "react";
 import Seta from "../../../assets/svg/Seta";
 

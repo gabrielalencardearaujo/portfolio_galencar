@@ -28,21 +28,11 @@
   margin-top: 107px;
 }
 
-/* Icons Social Media */
+/* Icons Social Medias */
 
 .socialMedias {
   display: flex;
   gap: 20px;
-}
-
-.iconSocialMedia {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: var(--color-base6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* About me Link */
