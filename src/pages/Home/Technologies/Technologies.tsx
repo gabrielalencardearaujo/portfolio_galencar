@@ -14,6 +14,7 @@ function Technologies() {
           if(index < 3) {
             return (
               <CardFormation 
+              key={`key${index}`}
               src={certificate.src} 
               describe={certificate.describe} 
               dateStart={certificate.dateStart}
