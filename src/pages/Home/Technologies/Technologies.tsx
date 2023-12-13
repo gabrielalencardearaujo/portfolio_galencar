@@ -3,6 +3,7 @@ import CardFormation from "../../../components/CardFormation/CardFormation";
 import Seta from "../../../components/SVGComponents/Seta";
 import {jsonFormations,TypeJsonFormation} from '../../../services/jsonFormations';
 import { NavLink } from "react-router-dom";
+import AllTechnologies from "./AllTechnologies";
 
 function Technologies() {
   return (
@@ -24,7 +25,7 @@ function Technologies() {
         })}
 
         <NavLink to="projects" className={styles.leftIdent}>
-          <span className={` aboutMeLink  linkInternal`}>
+          <span className={`aboutMeLink linkInternal`}>
             Veja mais
             <span className="animeLoop">
               <Seta />
@@ -36,6 +37,11 @@ function Technologies() {
 
       <div className={styles.technologies}>
         <h1 className={styles.titleDetails}>TECNOLOGIAS</h1>
+
+        <div className={styles.containerIcons}>
+          <AllTechnologies />
+        </div>
+        
       </div>
     </section>
   );

@@ -2,7 +2,7 @@ function IconPHP() {
   return (
     <>
       <svg
-        width="61"
+        width="60"
         height="33"
         viewBox="0 0 61 33"
         fill="none"
