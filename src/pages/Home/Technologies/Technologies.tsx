@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 function Technologies() {
   return (
     <section className={styles.containerFormation}>
-      <div className={styles.formation}>
+      <div className={`${styles.formation} animeEntryLeft`}>
         <h1 className={styles.titleDetails}>FORMAÇÃO</h1>
 
         {jsonFormations.map((certificate: TypeJsonFormation, index: number) => {
