@@ -3,6 +3,7 @@ import Seta from "../../../components/SVGComponents/Seta";
 import styles from "./CarProject.module.css";
 
 type cardProjectsProps = {
+  id: string
   name: string;
   describe: string;
   src: string;
@@ -11,15 +12,17 @@ type cardProjectsProps = {
 };
 
 function CardProject({
+  id,
   src,
   name,
   describe,
   github,
   website,
 }: cardProjectsProps) {
+  console.log(id)
 
   return (
-    <div className={styles.cardContainer}>
+    <div className={`${styles.cardContainer} ${styles[id]}`} id={id}>
       <img src={src} alt="" />
       <span className={styles.iconContainer}>
         <a href={github} title="Repositório Github">
