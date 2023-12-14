@@ -6,8 +6,9 @@ function SectionProject() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        {describeCardProjects.map((project) => (
+        {describeCardProjects.map((project, index) => (
           <CardProject
+            key={`project${index}`}
             src={project.src}
             name={project.name}
             describe={project.describe}
