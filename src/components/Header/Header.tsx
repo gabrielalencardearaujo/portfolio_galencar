@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
 import Theme from './Theme';
@@ -16,6 +15,7 @@ function Header() {
       <div>
         <nav className={styles.navLinks}>
           <ul>
+            <li><NavLink to='/' end>Home</NavLink></li>
             <li><NavLink to='/projects' end>Projetos</NavLink></li>
             <li><NavLink to='education'>Formação</NavLink></li>
           </ul>

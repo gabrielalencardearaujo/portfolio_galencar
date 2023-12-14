@@ -60,16 +60,31 @@
   width: 80px;
   height: 80px;
   overflow: visible;
-  
+}
+
+.containerIcons span path {
+  fill: var(--color-base4);
+}
+
+
+.containerIcons span:nth-child(6) svg path {
+  fill: transparent;
+  stroke: var(--color-base4);
 }
 
 .containerIcons span:hover path,
 .containerIcons span:hover p {
   color: var(--color-primary2);
   fill: var(--color-primary2);
-  text-shadow: 0px 0px 12px var(--color-primary3);
+  text-shadow: 0px 0px 10px var(--color-primary3);
+  filter: drop-shadow(0 0 8px var(--color-primary3)); /*Inseri shadow nos svgs*/
+  transition: .2s ;
+}
+
+.containerIcons span:nth-child(6):hover svg path {
   stroke: var(--color-primary2);
   filter: drop-shadow(0 0 8px var(--color-primary3)); /*Inseri shadow nos svgs*/
+  text-shadow: 0px 0px 12px var(--color-primary3);
   transition: .2s ;
 }
 

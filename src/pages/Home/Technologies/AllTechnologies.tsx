@@ -41,7 +41,7 @@ function AllTechnologies() {
         <IconReact />       
         <p>React</p>
       </span>
-      <span className="icon">
+      <span className="figma">
         <IconFigma />
         <p>Figma</p>
       </span>
