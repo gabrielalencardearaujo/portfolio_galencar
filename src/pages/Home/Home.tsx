@@ -1,4 +1,5 @@
 import About from './About/About';
+import SectionProject from './SectionProjects/SectionProject';
 import Technologies from './Technologies/Technologies';
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
   return (
     <>
       <About />
+      <SectionProject />
       <Technologies />
     </>
   )
