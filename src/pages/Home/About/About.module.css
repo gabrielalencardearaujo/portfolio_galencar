@@ -4,11 +4,9 @@
   width: 88vw;
   height: 74vh;
   margin: 0 auto;
-  margin-bottom: 8.75rem;
+  margin: 3.75rem auto;
   gap: 40px;
 }
-
-
 
 @media only screen and (max-width: 1024px) {
   .containerAbout {

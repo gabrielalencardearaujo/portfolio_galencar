@@ -3,9 +3,10 @@
   height: 120vh;
   width: 175.5vw;
   margin: 160px 0px 80px 0px;
-  padding: 40px;
+  padding: 40px 6vw;
 }
 
 .content {
   display: grid;
+  gap: 40px;
 }

@@ -37,7 +37,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #000;
+  background-color: #05040A;
   padding: 5px;
   border-radius: 50%;
   width: 60px;
@@ -84,7 +84,7 @@
 }
 
 .popUpContainer h3 {
-  color: var(--color-neutral1);
+  color: #F7F7F7;
   margin-bottom: 12px;
   font-size: 3rem;
   font-weight: 500;
@@ -93,8 +93,7 @@
 }
 
 .popUpContainer p {
-  color: var(--color-neutral1);
-
+  color: #F7F7F7;
   font-size: 24px;
   font-weight: 500;
 }
