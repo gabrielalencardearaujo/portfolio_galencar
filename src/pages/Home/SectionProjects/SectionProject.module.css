@@ -3,6 +3,9 @@
   width: 180vw;
   margin: 160px 0px 80px 0px;
   padding: 60px 6vw;
+  position: relative;
+  transition: all .6s ease-in-out;
+
 }
 
 .content {
@@ -75,4 +78,48 @@
   fill: var(--color-base1);
   stroke: var(--color-base1);
   stroke-width: 3;
+}
+
+/* BAR SLIDE */
+
+.container .barSlide {
+  opacity: 0;
+  height: 100%;
+  width: 220px;
+  background: linear-gradient(-90deg, #5B20D8 0%, transparent);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  position: absolute;
+  top: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.container .barSlide:hover {
+  opacity: 1;
+}
+
+.container .barSlide.left {
+  left: calc(100vw - 210px);
+  z-index: 10;
+}
+
+.container .barSlide.right {
+  right: calc(100vw - 210px);
+  z-index: 10;
+  background: linear-gradient(90deg, #5B20D8 0%, transparent);
+}
+
+.container .barSlide.right svg {
+  transform: rotate(180deg);
+}
+
+.container .barSlide svg path {
+  stroke: var(--color-neutral2);
+}
+
+.translate {
+  transform: translate(-80vw);
 }

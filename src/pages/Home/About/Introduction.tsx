@@ -14,7 +14,7 @@ function Introduction({ ...props }: introductionProps) {
           Desenvolvedor <span className="active">FullStack</span>_
         </h1>
         <p className={styles.content}>
-          Olá, sou o Gabriel Alencar, desenvolvedor fullstack freelancer especializado na MERN Stack, com conhecimentos em UI&UX, Typescript, MySQL e PHP.
+          Olá, meu nome é Gabriel Alencar, sou desenvolvedor fullstack freelancer especializado na MERN Stack, com conhecimentos em UI&UX, Typescript, MySQL e PHP.
         </p>
       </div>
 

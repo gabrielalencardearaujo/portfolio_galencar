@@ -1,4 +1,5 @@
-.linkInternal:hover .animeLoop {
+.linkInternal:hover .animeLoop,
+.animeLoop {
   animation: animeLoop 2s infinite ease-in-out;
 }
 

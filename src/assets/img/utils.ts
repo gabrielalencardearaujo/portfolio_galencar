@@ -11,7 +11,7 @@ export const describeCardProjects = [
   },
   {
     name: 'Projeto Espelho',
-    describe: 'Desenvolvido para ajudar e facilitar a reversa (conferência) dos terminais de máquinas de cartão de crédito no meu local de trabalho e usando tecnologias como HTML5, CSS3, JS e JQquery.',
+    describe: 'Desenvolvido para ajudar e facilitar a reversa (conferência) dos terminais de máquinas de cartão de crédito no meu local de trabalho, usei tecnologias como HTML5, CSS3, JS e JQquery.',
     src: ProjetoEspelho,
     github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
     website: ''

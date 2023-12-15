@@ -57,6 +57,7 @@ body {
   font-family: var(--primary-font);
   background-color: var(--color-base7);
   color: var(--color-neutral1);
+  overflow-x: hidden;
 }
 
 ul, li, a {

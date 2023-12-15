@@ -67,7 +67,6 @@
 }
 
 /* POP UP */
-
 .popUpContainer {
   position: absolute;
   top: 100%;
@@ -81,7 +80,6 @@
   align-items: end;
   z-index: 1;
   transition: .3s ;
-
 }
 
 .popUpContainer h3 {
