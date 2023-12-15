@@ -1,5 +1,4 @@
 import IconGithub from "../../../components/IconsSocialMedia/IconGithub";
-import Seta from "../../../components/SVGComponents/Seta";
 import styles from "./CarProject.module.css";
 
 type cardProjectsProps = {
@@ -19,17 +18,17 @@ function CardProject({
   github,
   website,
 }: cardProjectsProps) {
-  console.log(id);
-
   return (
-    <div className={`${styles.cardContainer} ${styles[id]}`} id={id}>
+    <a
+      href={website}
+      target="_blank"
+      className={`${styles.cardContainer} ${styles[id]}`}
+      id={id}
+    >
       <img src={src} alt="" />
       <span className={styles.iconContainer}>
-        <a href={github} title="Repositório Github">
+        <a href={github} target="_blank" title="Acessar Repositório">
           <IconGithub />
-        </a>
-        <a href={website} title="Visitar Site">
-          <Seta />
         </a>
       </span>
 
@@ -39,7 +38,7 @@ function CardProject({
           <p>{describe}</p>
         </span>
       </div>
-    </div>
+    </a>
   );
 }
 
