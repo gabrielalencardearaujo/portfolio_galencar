@@ -3,7 +3,7 @@ import Seta from "../../../components/SVGComponents/Seta";
 import styles from "./CarProject.module.css";
 
 type cardProjectsProps = {
-  id: string
+  id: string;
   name: string;
   describe: string;
   src: string;
@@ -19,7 +19,7 @@ function CardProject({
   github,
   website,
 }: cardProjectsProps) {
-  console.log(id)
+  console.log(id);
 
   return (
     <div className={`${styles.cardContainer} ${styles[id]}`} id={id}>
