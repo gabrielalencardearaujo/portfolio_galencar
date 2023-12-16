@@ -24,16 +24,6 @@ function SectionProject() {
 
   }, [slide]);
 
-  // const handleClick:React.MouseEventHandler<HTMLDivElement> = (event) => {
-  //   if(event.currentTarget.classList.contains('right')) {
-  //     event.currentTarget.classList.remove('right')
-  //     event.currentTarget.classList.add('left')
-  //   } else {
-  //     event.currentTarget.classList.add('right')
-  //     event.currentTarget.classList.remove('left')
-  //   }
-  // };
-
   return (
     <section className={styles.container} ref={sectionProjects}>
       <div

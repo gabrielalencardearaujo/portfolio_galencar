@@ -6,11 +6,12 @@ type CardProps = React.ComponentProps<"img"> & {
   describe: string;
   dateStart: string;
   dateEnd: string;
+  props?: React.ReactNode[];
 };
 
-function CardFormation({ src, alt, describe, dateStart, dateEnd }: CardProps) {
+function CardFormation({ src, alt, describe, dateStart, dateEnd, ...props }: CardProps) {
   return (
-    <div className={styles.containerClass}>
+    <div className={styles.containerClass} {...props}>
       <img src={src} alt={alt} />
       <div className={styles.content}>
         <p className={styles.describeCourse}>{describe}</p>

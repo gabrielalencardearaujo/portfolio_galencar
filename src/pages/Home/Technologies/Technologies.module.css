@@ -12,15 +12,6 @@
   display: grid;
 }
 
-.titleDetails {
-  font-size: 5rem;
-  font-weight: bold;
-  color: var(--color-base6);
-  letter-spacing: 0.2rem;
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
 .leftIdent {
   justify-self: end;
   margin-right: 10px;

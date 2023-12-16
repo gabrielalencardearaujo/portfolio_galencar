@@ -94,3 +94,12 @@ ul, li, a {
   fill: var(--color-primary2);
   stroke: var(--color-primary2);
 }
+
+.titleDetails {
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--color-base6);
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}

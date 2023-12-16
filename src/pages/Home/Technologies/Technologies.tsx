@@ -9,7 +9,7 @@ function Technologies() {
   return (
     <section className={styles.containerFormation}>
       <div className={`${styles.formation} animeEntryLeft`}>
-        <h1 className={styles.titleDetails}>FORMAÇÃO</h1>
+        <h1 className="titleDetails">FORMAÇÃO</h1>
 
         {jsonFormations.map((certificate: TypeJsonFormation, index: number) => {
           if(index < 3) {
@@ -24,7 +24,7 @@ function Technologies() {
           }
         })}
 
-        <NavLink to="projects" className={styles.leftIdent}>
+        <NavLink to="education" className={styles.leftIdent}>
           <span className={`aboutMeLink linkInternal`}>
             Veja mais
             <span className="animeLoop">
@@ -36,7 +36,7 @@ function Technologies() {
       </div>
 
       <div className={styles.technologies}>
-        <h1 className={styles.titleDetails}>TECNOLOGIAS</h1>
+        <h1 className="titleDetails">TECNOLOGIAS</h1>
 
         <div className={styles.containerIcons}>
           <AllTechnologies />

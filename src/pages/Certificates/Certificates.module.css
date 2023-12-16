@@ -1,0 +1,22 @@
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  margin: 5rem auto;
+} 
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 2vw;
+}
+
+.title {
+  text-align: start;
+  margin-left: 6rem;
+  font-size: 2.75rem;
+}
+
+.content > div,
+.content img {
+  height: 320px;
+}
