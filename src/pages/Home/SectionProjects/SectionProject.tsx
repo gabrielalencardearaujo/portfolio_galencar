@@ -74,14 +74,3 @@ function SectionProject() {
 }
 
 export default SectionProject;
-{
-  /* <CardProject
-            key={`project${index}`}
-            id={`project${index}`}
-            src={project.src}
-            name={project.name}
-            describe={project.describe}
-            github={project.github}
-            website={project.website}
-          /> */
-}
