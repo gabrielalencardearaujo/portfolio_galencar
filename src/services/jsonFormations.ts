@@ -29,7 +29,7 @@ export const jsonFormations: TypeJsonFormation[] = [
   },
   {
     src: certificadoWebCompleto,
-    describe: "Curso Online de Desenvolvimento Web Completo - Udemy",
+    describe: "Curso Online de Desenvolvimento Web Completo - Udemy - 117 horas",
     dateStart: "Abr/2023",
     dateEnd: "Dez/2023",
   },
