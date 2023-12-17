@@ -6,9 +6,9 @@ import Languages from './Languages';
 function Header() {
 
   return (
-    <header>
-      <div className={styles.logo}>
-        <NavLink to='/' className={styles.logoDetails}>
+    <header id='header'>
+      <div className="logo">
+        <NavLink to='/' className="logoDetails">
           <strong className="active">G.</strong>Alencar
         </NavLink>
       </div>

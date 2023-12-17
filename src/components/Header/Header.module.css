@@ -7,22 +7,6 @@ header{
   position: relative;
 }
 
-.logo {
-  margin-left: 10vw;
-  margin-right: auto;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.logoDetails {
-  color: var(--color-neutral1);
-  text-shadow: none;
-} 
-
-.logoDetails strong {
-  color: var(--color-primary2);
-}
-
 header div{
   display: flex;
   margin-right: 6vw;

@@ -1,0 +1,51 @@
+.containerFooter {
+  background-color: var(--color-base9);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(80px, 1fr));  
+  gap: 160px;
+  padding: 40px 10vw 40px 0px;
+}
+
+.containerFooter .logo {
+  margin: none;
+  font-size: 3rem;
+}
+
+.containerFooter div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-size: 1.5rem;
+}
+
+.voltarTopo {
+  display: flex;
+  flex-direction: row !important;
+  align-items: center;
+  color: var(--color-neutral1);
+
+}
+
+.voltarTopo a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.voltarTopo svg path {
+  stroke: currentColor;
+  stroke-width: 3;
+}
+
+.voltarTopo a:hover svg path,
+.voltarTopo a:hover {
+  color: var(--color-primary2);
+  stroke: var(--color-primary2);
+}
+
+.voltarTopo a svg{
+  transform: rotate(-90deg);
+}

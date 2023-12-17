@@ -2,7 +2,7 @@
   max-width: 90vw;
   height: 125vh;
   margin: 0 auto;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 8vw;
