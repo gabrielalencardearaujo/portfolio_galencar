@@ -11,6 +11,7 @@ function Certificates() {
         {jsonFormations.map((certificate: TypeJsonFormation, index: number) => (
           <CardFormation
           key={`key${index}`}
+          pdf={certificate.pdf}
           src={certificate.src}
           describe={certificate.describe}
           dateStart={certificate.dateStart}
