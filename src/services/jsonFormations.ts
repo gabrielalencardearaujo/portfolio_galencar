@@ -11,6 +11,7 @@ import CSSFlexbox from '../assets/img/Certificates/CSS_Flexbox.png';
 import SASS from '../assets/img/Certificates/CSS_SASS.png';
 import UiDesign from '../assets/img/Certificates/UI_Design_Iniciantes.png';
 import JQuery from '../assets/img/Certificates/JQuery.png';
+import PDF_certificadoWebCompleto from '../assets/img/Certificates/PDFs/DesenvolvimentoWeb_Udemy.pdf';
 
 
 export type TypeJsonFormation = {
@@ -18,6 +19,7 @@ export type TypeJsonFormation = {
   describe: string
   dateStart: string,
   dateEnd: string,
+  pdf?: string,
 }
 
 export const jsonFormations: TypeJsonFormation[] = [
@@ -29,6 +31,7 @@ export const jsonFormations: TypeJsonFormation[] = [
   },
   {
     src: certificadoWebCompleto,
+    pdf: PDF_certificadoWebCompleto,
     describe: "Curso Online de Desenvolvimento Web Completo - Udemy - 117 horas",
     dateStart: "Abr/2023",
     dateEnd: "Dez/2023",

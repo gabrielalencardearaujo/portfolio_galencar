@@ -73,7 +73,7 @@ ul, li, a {
 
 .active {
   color: var(--color-primary2);
-  text-shadow: 0px 0px 12px  var(--color-primary3);
+  /* text-shadow: 0px 0px 12px  var(--color-primary3); */
 }
 
 /* Links internos */

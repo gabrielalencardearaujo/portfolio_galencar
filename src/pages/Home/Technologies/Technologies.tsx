@@ -16,6 +16,7 @@ function Technologies() {
             return (
               <CardFormation 
               key={`key${index}`}
+              pdf={certificate.pdf}
               src={certificate.src} 
               describe={certificate.describe} 
               dateStart={certificate.dateStart}

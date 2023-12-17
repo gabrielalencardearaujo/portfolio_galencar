@@ -1,11 +1,11 @@
 import SVGDownload from "./SVGDownload";
 import styles from './IconDownload.module.css';
 
-function IconDownload() {
+function IconDownload({pdf}: {pdf?: string}) {
   return (
-    <span className={styles.icon} title="Download PDF">
+    <a href={pdf} className={styles.icon} title="Download PDF" download={pdf}>
       <SVGDownload />
-    </span>
+    </a>
   )
 }
 

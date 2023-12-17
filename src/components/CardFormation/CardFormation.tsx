@@ -7,23 +7,26 @@ type CardProps = React.ComponentProps<"img"> & {
   dateStart: string;
   dateEnd: string;
   props?: React.ReactNode[];
+  pdf?: string,
 };
 
-function CardFormation({ src, alt, describe, dateStart, dateEnd, ...props }: CardProps) {
+function CardFormation({ src, alt, describe, dateStart, dateEnd, pdf, ...props }: CardProps) {
   return (
-    <div className={styles.containerClass} {...props}>
-      <img src={src} alt={alt} />
-      <div className={styles.content}>
-        <p className={styles.describeCourse}>{describe}</p>
-        <div className={styles.dateCourse}>
-          <span>
-            <p>Início do Curso: {dateStart}</p>
-            <p>Fim do Curso: {dateEnd}</p>
-          </span>
-          <IconDownload />
+    <a href={pdf} target="_blank">
+      <div className={styles.cardContainer} {...props}>
+        <img src={src} alt={alt} />
+        <div className={styles.content}>
+          <p className={styles.describeCourse}>{describe}</p>
+          <div className={styles.dateCourse}>
+            <span>
+              <p>Início do Curso: {dateStart}</p>
+              <p>Fim do Curso: {dateEnd}</p>
+            </span>
+            <IconDownload pdf={pdf} />
+          </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
