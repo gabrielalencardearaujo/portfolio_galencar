@@ -12,3 +12,6 @@
  5. Melhorar o 'Sobre Mim'
  6. Inserir foto minha na Home
  7. Funcionalidade dos Botoes de Download dos PDFs
+ 8. Titulo das paginas dinamico
+ 9. Ajuste na fonte das letras nos CardProjects.
+ 10. Reponsividade de Todo o portfolio.
