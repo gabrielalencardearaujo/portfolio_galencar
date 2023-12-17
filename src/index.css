@@ -53,6 +53,17 @@ html.light {
   --color-neutral3: #626072;
 }
 
+::-webkit-scrollbar {
+  background-color: var(--color-base9); 
+  width: 10px; /* largura da barra de rolagem */
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-neutral1);
+  border-radius: 10px; 
+}
+
 body {
   font-family: var(--primary-font);
   background-color: var(--color-base7);
