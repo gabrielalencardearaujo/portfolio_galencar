@@ -1,6 +1,6 @@
 import styles from "./Certificates.module.css";
 import CardFormation from "../../components/CardFormation/CardFormation";
-import { TypeJsonFormation, jsonFormations } from "../../services/jsonFormations";
+import { TypeJsonFormation, jsonFormatCardCertificate } from "../../services/jsonFormatCardCertificate";
 
 function Certificates() {
   return (
@@ -8,7 +8,7 @@ function Certificates() {
       <h1 className={`titleDetails ${styles.title}`}>FORMAÇÃO</h1>
 
       <div className={styles.content}>
-        {jsonFormations.map((certificate: TypeJsonFormation, index: number) => (
+        {jsonFormatCardCertificate.map((certificate: TypeJsonFormation, index: number) => (
           <CardFormation
           key={`key${index}`}
           pdf={certificate.pdf}

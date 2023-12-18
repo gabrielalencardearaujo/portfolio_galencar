@@ -22,7 +22,7 @@ export type TypeJsonFormation = {
   pdf?: string,
 }
 
-export const jsonFormations: TypeJsonFormation[] = [
+export const jsonFormatCardCertificate: TypeJsonFormation[] = [
   {
     src: logoPUCPR,
     describe: "Cursando Análise e Desenvolvimento de Sistemas na PUCPR",

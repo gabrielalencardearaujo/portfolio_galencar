@@ -1,7 +1,7 @@
 import styles from "./Technologies.module.css";
 import CardFormation from "../../../components/CardFormation/CardFormation";
 import Seta from "../../../components/SVGComponents/Seta";
-import {jsonFormations,TypeJsonFormation} from '../../../services/jsonFormations';
+import {jsonFormatCardCertificate,TypeJsonFormation} from '../../../services/jsonFormatCardCertificate';
 import { NavLink } from "react-router-dom";
 import AllTechnologies from "./AllTechnologies";
 
@@ -11,7 +11,7 @@ function Technologies() {
       <div className={`${styles.formation} animeEntryLeft`}>
         <h1 className="titleDetails">FORMAÇÃO</h1>
 
-        {jsonFormations.map((certificate: TypeJsonFormation, index: number) => {
+        {jsonFormatCardCertificate.map((certificate: TypeJsonFormation, index: number) => {
           if(index < 3) {
             return (
               <CardFormation 
