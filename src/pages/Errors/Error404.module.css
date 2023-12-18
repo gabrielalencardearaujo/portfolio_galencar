@@ -1,0 +1,61 @@
+.container {
+  max-width: 80vw;
+  height: 60vh;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.container span {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 5rem;
+}
+
+.title {
+  font-size: 8rem;
+  color: var(--color-base4);
+}
+
+.notFound {
+  font-size: 3.2rem;
+  color: var(--color-neutral1);
+} 
+
+.sub {
+  font-size: 1rem;
+  color: var(--color-primary1);
+  cursor: pointer;
+  margin-top: 4rem;
+  position: relative;
+  display: inline;
+  margin-top: 5rem;
+  align-self: self-start;
+}
+
+.sub[title]:hover::after {
+  content: "Você está tentando acessar uma página que não existe!";
+  display: block;
+  width: max-content;
+  position: absolute;
+  top: 1.5rem;
+  left: 8rem;
+  padding: 1rem;
+  border-radius: 5px;
+  color: var(--color-neutral1);
+  background-color: var(--color-base4);
+}
+
+.container img {
+  max-width: 50vh;
+  height: 50vh;
+  align-self: center;
+  filter: grayscale(100%);
+  border: none;
+  justify-self: center;
+}
