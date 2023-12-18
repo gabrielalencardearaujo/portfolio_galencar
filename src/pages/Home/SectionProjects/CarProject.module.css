@@ -82,6 +82,11 @@
   transition: .3s ;
 }
 
+.popUpContainer span {
+  display: flex;
+  flex-direction: column;
+}
+
 .popUpContainer h3 {
   color: #F7F7F7;
   margin-bottom: 12px;
@@ -89,6 +94,7 @@
   font-weight: 500;
   z-index: 2;
   filter: none !important;
+  display: block !important;
 }
 
 .popUpContainer p {
