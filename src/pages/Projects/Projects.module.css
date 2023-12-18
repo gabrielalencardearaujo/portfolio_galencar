@@ -4,3 +4,17 @@
   margin: 5rem auto;
   border: 1px solid white;
 }
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 1vw;
+  margin-bottom: 4rem;
+}
+
+.title {
+  text-align: start;
+  margin-left: 6rem;
+  font-size: 2.75rem;
+  text-transform: uppercase;
+}
