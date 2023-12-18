@@ -1,10 +1,10 @@
-import SoloLeveling from "../../../assets/img/broly.jpg";
+import galencar from "../../../assets/img/galencar.jpg";
 import styles from "./CardPhoto.module.css";
 
 function CardPhoto() {
   return (
     <div className={`${styles.cardPhotoContainer} animeEntryLeft`}>
-      <img src={SoloLeveling} alt="" />
+      <img src={galencar} alt="" />
       <div>
         <p className={styles.name}>Gabriel Alencar</p>
         <p className={styles.city}>São Paulo - SP</p>
