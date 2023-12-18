@@ -11,7 +11,7 @@ function Introduction({ ...props }: introductionProps) {
     <div className={`${styles.container} animeEntryRight`}>
       <div>
         <h1 className={`${styles.title}`}>
-          Desenvolvedor <span className="active">FullStack</span>_
+        Desenvolvedor <span className="active">FullStack</span>_
         </h1>
         <p className={styles.content}>
           Olá, meu nome é Gabriel Alencar, sou desenvolvedor fullstack freelancer especializado na MERN Stack, com conhecimentos em UI&UX, Typescript, MySQL e PHP.
