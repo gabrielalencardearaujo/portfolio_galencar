@@ -21,79 +21,79 @@ import IconVite from "../../../assets/svg/svgTechnologies/Components/IconVite";
 function AllTechnologies() {
   return (
     <>
-      <span className="icon">
+      <span className="icon hidden">
         <IconHTML5 /> 
         <p>HTML5</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconCSS3 />
         <p>CSS3</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconJavascript />
         <p>Javascript</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconTypescript />
         <p>Typescript</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconReact />       
         <p>React</p>
       </span>
-      <span className="figma">
+      <span className="figma hidden">
         <IconFigma />
         <p>Figma</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconSass />       
         <p>Sass</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconBootstrap />
         <p>Bootstrap</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconNodeJS />
         <p>NodeJS</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconMongoDB />
         <p>MongoDB</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconPython />       
         <p>Python</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconPHP />        
         <p>PHP</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconJQuery /> 
         <p>JQuery</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconJava /> 
         <p>Java</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconMySQL />
         <p>MySQL</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconLinux />
         <p>Linux</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconGit />
         <p>Git</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconGithub />  
         <p>Github</p>
       </span>
-      <span className="icon">
+      <span className="icon hidden">
         <IconVite />       
         <p>Vite</p>
       </span>

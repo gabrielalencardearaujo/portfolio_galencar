@@ -6,6 +6,7 @@ import {
 import CardProjects from "./CardProjects";
 
 function Projects() {
+
   return (
     <main className={styles.container}>
       <h1 className={`titleDetails ${styles.title}`}>Projetos Profissionais</h1>
@@ -13,16 +14,17 @@ function Projects() {
         {professionalCardProjects.map(
           (project: TypejsonFormatProjects, index: number) => {
             return (
-              <CardProjects 
-                key={`project-${index}`} 
+              <CardProjects
+                key={`project-${index}`}
                 url={project.url}
                 title={project.title}
                 describe={project.describe}
                 technologies={project.technologies}
                 github={project.github}
-                src={project.src} 
+                src={project.src}
                 alt={project.alt}
-              />);
+              />
+            );
           }
         )}
       </section>

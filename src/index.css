@@ -129,3 +129,15 @@ ul, li, a {
 .logoDetails strong {
   color: var(--color-primary2);
 }
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transition: 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transition: 1s;
+}

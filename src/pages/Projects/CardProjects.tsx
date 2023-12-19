@@ -1,5 +1,16 @@
-import styles from './CardProjects.module.css'
+import React from "react";
+import styles from "./CardProjects.module.css";
 import { TypejsonFormatProjects } from "../../services/professionalCardProjects";
+
+const observerEntry = new IntersectionObserver(
+  (entries: IntersectionObserverEntry[]) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      }
+    });
+  }
+);
 
 function CardProjects({
   url,
@@ -10,8 +21,13 @@ function CardProjects({
   src,
   alt,
 }: TypejsonFormatProjects) {
+  React.useEffect(() => {
+    const card = document.querySelectorAll(".hidden");
+    card.forEach((element) => observerEntry.observe(element));
+  });
+
   return (
-    <div className={styles.cardContainer}>
+    <div className={`${styles.cardContainer} hidden`}>
       <img src={src} alt={alt} />
       <div className={styles.content}>
         <h4 className={styles.title}>{title}</h4>
@@ -19,11 +35,16 @@ function CardProjects({
         <p className={styles.technologies}>{technologies}</p>
 
         <span>
-          <a href={url} target="_blank" rel="noopener noreferrer">Acessar site</a>
-          <a href={github} target="_blank" rel="noopener noreferrer">Repositorio Github</a>
+          <a href={url} target="_blank" rel="noopener noreferrer">
+            Acessar site
+          </a>
+          <a href={github} target="_blank" rel="noopener noreferrer">
+            Repositorio Github
+          </a>
         </span>
       </div>
-    </div>);
+    </div>
+  );
 }
 
 export default CardProjects;

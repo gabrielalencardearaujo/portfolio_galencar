@@ -8,7 +8,7 @@ function About() {
   const [about, setAbout] = React.useState(false);
 
   return (
-    <section className={styles.containerAbout}>
+    <section className={`${styles.containerAbout}`}>
       <CardPhoto />
       <article>
         {about ? (

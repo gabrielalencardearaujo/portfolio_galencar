@@ -25,7 +25,7 @@ function SectionProject() {
   }, [slide]);
 
   return (
-    <section className={styles.container} ref={sectionProjects}>
+    <section className={`${styles.container}`} ref={sectionProjects}>
       <div
         className={`${styles.barSlide} animeLoop ${styles.right}`}
         onClick={() => setSlide(!slide)}

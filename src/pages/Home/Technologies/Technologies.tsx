@@ -7,7 +7,7 @@ import AllTechnologies from "./AllTechnologies";
 
 function Technologies() {
   return (
-    <section className={styles.containerFormation}>
+    <section className={`${styles.containerFormation}`}>
       <div className={`${styles.formation} animeEntryLeft`}>
         <h1 className="titleDetails">FORMAÇÃO</h1>
 

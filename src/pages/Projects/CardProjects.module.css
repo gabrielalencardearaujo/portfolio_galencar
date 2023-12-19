@@ -1,4 +1,4 @@
-.cardContainer{
+.cardContainer {
   width: 100%;
   height: 320px;
   display: grid;
@@ -54,4 +54,19 @@ span a {
 
 span a:hover {
   color: var(--color-primary3);
+}
+
+/* Animate */
+
+.hidden {
+  opacity: 0;
+  filter: blur(10px);
+  transition: all 1s;
+
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transition: all 1s;
 }
