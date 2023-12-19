@@ -10,11 +10,7 @@
 .title {
   font-size: 4.75rem;
   font-weight: bold;
-}
-
-.title span {
-  color: var(--color-primary2);
-  display: inline;
+  color: var(--color-neutral1);
 }
 
 .content {
@@ -46,4 +42,69 @@ h2 {
 
 .describe {
   font-size: 1.35rem;
+}
+
+/* ANIMATION TYPEWORD */
+
+.title span {
+  display: inline;
+  position: relative;
+}
+
+.title span::before {
+  content: "FullStack";
+  color: var(--color-primary2);
+  animation: effectWordType 15s 1;
+}
+
+.title span::after {
+  content: "";
+  position: absolute;
+  height: 75%;
+  width: 0;
+  margin-top: 16px;
+  margin-left: 4px;
+  border-left: 6px solid var(--color-neutral1);
+  right: -10px;
+  background-color: var(--color-base7);
+  animation: cursor .8s infinite ease-in-out, typing 15s steps(10) 1;
+}
+
+@keyframes typing {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%, 100% {
+    width: 0;
+  }
+
+  0%, 5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    width: calc(100% + 1rem);
+  }
+}
+
+@keyframes cursor {
+  0% {
+    border-left: 6px solid var(--color-base7);
+  }
+}
+
+@keyframes effectWordType {
+
+  0%, 20% {
+    content: "React";
+  }
+
+  21%, 40% {
+    content: "Web";
+  }
+
+  41%, 60% {
+    content: "Javascript";
+  }
+
+  61%, 80% {
+    content: "NodeJS";
+  }
+
+  81%, 100% {
+    content: "FullStack";
+  }
 }

@@ -16,14 +16,17 @@ function AboutMe({ ...props }: introductionProps) {
         nos estudos de <strong className="active">HTML</strong>, <strong className="active">CSS</strong> e <strong className="active">Javascript</strong>, criando um sistema com interface que
         automatizava o processo de verificação de materiais e realizava a baixa
         correta dos serviços no sistema. Essa experiência despertou em mim uma
-        paixão pela programação. Atualmente, atuo como freelancer utilizando a{" "}
+        paixão pela programação.
+        <br />
+        Atualmente, atuo como freelancer utilizando a{" "}
         <strong className="active">MERN Stack</strong> (
         <em>MongoDB, Express, React e NodeJS</em>) como minha principal
         ferramenta. Sou estudante do curso de Análise e Desenvolvimento de
         Sistemas na PUCPR, e pretendo seguir carreira como desenvolvedor
         fullstack. Tenho algum conhecimento em outras linguagens como <strong className="active">Typescript</strong>, <strong className="active">PHP</strong>,{" "}
         <strong className="active">MySQL</strong>, <strong className="active">JAVA</strong>, <strong className="active">Python</strong>, e também tenho alguns conhecimentos em <strong className="active">UI&UX</strong>.
-      </p>
+        </p>
+      
       <span className={`aboutMeLink linkInternal`} {...props}>
         <span className={`animeLoop`}>
           <Seta />

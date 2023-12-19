@@ -7,14 +7,17 @@ import Seta from "../../../components/SVGComponents/Seta";
 import { introductionProps } from "./type";
 
 function Introduction({ ...props }: introductionProps) {
+
   return (
     <div className={`${styles.container} animeEntryRight`}>
       <div>
-        <h1 className={`${styles.title}`}>
-        Desenvolvedor <span className="active">FullStack</span>_
+        <h1 className={styles.title}>
+          Desenvolvedor <span></span>
         </h1>
         <p className={styles.content}>
-          Olá, meu nome é Gabriel Alencar, sou desenvolvedor fullstack freelancer especializado na MERN Stack, com conhecimentos em UI&UX, Typescript, MySQL e PHP.
+          Olá, meu nome é Gabriel Alencar, sou desenvolvedor fullstack
+          freelancer especializado na MERN Stack, com conhecimentos em UI&UX,
+          Typescript, MySQL e PHP.
         </p>
       </div>
 
@@ -39,16 +42,12 @@ function Introduction({ ...props }: introductionProps) {
           </IconSocialMedia>
         </div>
 
-        <span
-          className={`aboutMeLink  linkInternal`}
-          {...props}
-        >
+        <span className={`aboutMeLink  linkInternal`} {...props}>
           Sobre Mim
           <span className="animeLoop">
             <Seta />
           </span>
         </span>
-
       </div>
     </div>
   );
