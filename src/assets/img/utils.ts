@@ -1,10 +1,20 @@
-import AppDog from './Projects/AppDog.jpg';
 import ProjetoEspelho from './Projects/projetoEspelho.png';
 import Protfolio from './Projects/portfolio.png';
 import RegexTool from './Projects/regexTool.png';
 import QuizFlag from './Projects/quizFlag.png';
+import OrcamentoPessoal from './Projects/orcamentoPessoal.png';
+import PainelChegada from './Projects/painelChegada.png';
+import ToDoList from './Projects/to_do_list.png';
+import ColorQuiz from './Projects/colorQuiz.png';
 
 export const describeCardProjects = [
+  {
+    name: 'Espelho Reversa',
+    describe: 'Desenvolvido para ajudar a reversa (conferência) nos serviços de suporte ao cliente com máquinas de cartão de crédito no meu local de trabalho. A partir do excel fornecido pelo banco de dados da empresa, o app separa os serviços por motoboy e por tipo de baixa no sistema, verifica se a máquina e a baixa sistêmica estão corretos, salva na base de dados e emite documento impresso. Usei tecnologias como HTML5, CSS3, Javascript e API externa para converter os dados de arquivo .xlsx em .json. ',
+    src: ProjetoEspelho,
+    github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
+    website: ''
+  },
   {
     name: 'Portfolio',
     describe: 'Portfolio com meus objetivos, projetos e estudos. Desenvolvido usando HTML, CSS, Typescript, React.TSX',
@@ -13,17 +23,10 @@ export const describeCardProjects = [
     website: ''
   },
   {
-    name: 'Projeto Espelho',
-    describe: 'Desenvolvido para ajudar e facilitar a reversa (conferência) dos terminais de máquinas de cartão de crédito no meu local de trabalho, usei tecnologias como HTML5, CSS3, JS e JQquery.',
-    src: ProjetoEspelho,
-    github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
-    website: ''
-  },
-  {
-    name: 'AppDog',
-    describe: 'Projeto desenvolvido nas aulas de React do Curso de React do Origamid, o site é uma rede social para cachorros e usando tecnologias como React.JSX, HTML, CSS, JS e Vite.',
-    src: AppDog,
-    github: 'https://github.com/gabrielalencardearaujo/app_dog_social_media',
+    name: 'Painel Chegada - Safra',
+    describe: 'Desenvolvido para gerenciar a ordem de chegada e acompanhamento dos motoboys na retirada/entrega de serviços. App contém sistema de cadastro de novos motoboys e salva no localStorage. Tecnologias usadas: HTML, CSS e JQuery.',
+    src: PainelChegada,
+    github: 'https://github.com/gabrielalencardearaujo/Painel_Chegada_Safra',
     website: ''
   },
   {
@@ -41,24 +44,24 @@ export const describeCardProjects = [
     website: ''
   },
   {
-    name: 'Projeto Espelho',
-    describe: 'Desenvolvido para ajudar e facilitar a reversa (conferência) dos terminais de máquinas de cartão de crédito no meu local de trabalho e usando tecnologias como HTML5, CSS3, JS e JQquery.',
-    src: ProjetoEspelho,
-    github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
+    name: 'OrcamentoPessoal',
+    describe: 'WebApp desenvolvido para ajudar na sua gestão financeira. App salva sua renda e despezas do mês, faz o calculo do seu saldo, salva seu histório. Usando HTML, CSS E Javascript',
+    src: OrcamentoPessoal,
+    github: 'https://github.com/gabrielalencardearaujo/webapp_or-amento_pessoal',
     website: ''
   },
   {
-    name: 'Projeto Espelho',
-    describe: 'Desenvolvido para ajudar e facilitar a reversa (conferência) dos terminais de máquinas de cartão de crédito no meu local de trabalho e usando tecnologias como HTML5, CSS3, JS e JQquery.',
-    src: ProjetoEspelho,
-    github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
-    website: ''
+    name: 'To do list',
+    describe: 'To do List simples baseado no Aplicativo Obsidian, persiste os dados no localStorage. Uso de React.JSX na sua criação.',
+    src: ToDoList,
+    github: 'https://github.com/gabrielalencardearaujo/to_do_list',
+    website: 'https://to-do-list-sigma-taupe.vercel.app/'
   },
   {
-    name: 'Projeto Espelho',
-    describe: 'Desenvolvido para ajudar e facilitar a reversa (conferência) dos terminais de máquinas de cartão de crédito no meu local de trabalho e usando tecnologias como HTML5, CSS3, JS e JQquery.',
-    src: ProjetoEspelho,
-    github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
+    name: 'Mini Game - Color Quiz',
+    describe: 'Jogo para adivinhar a cor correta com base seu código RGB ou Hexadecimal. Uso de HTML, CSS e Javascript.',
+    src: ColorQuiz,
+    github: 'https://github.com/gabrielalencardearaujo/Project-Mini_Game-Colors',
     website: ''
   },
   {
