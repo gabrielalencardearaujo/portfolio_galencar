@@ -1,5 +1,5 @@
-import AppDog from './AppDog.jpg';
-import ProjetoEspelho from './projetoEspelho.jpg';
+import AppDog from './Projects/AppDog.jpg';
+import ProjetoEspelho from './Projects/projetoEspelho.png';
 
 export const describeCardProjects = [
   {
