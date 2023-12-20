@@ -1,5 +1,5 @@
 import ProjetoEspelho from './Projects/projetoEspelho.png';
-import Protfolio from './Projects/portfolio.png';
+import Portfolio from './Projects/portfolio.png';
 import RegexTool from './Projects/regexTool.png';
 import QuizFlag from './Projects/quizFlag.png';
 import OrcamentoPessoal from './Projects/orcamentoPessoal.png';
@@ -18,7 +18,7 @@ export const describeCardProjects = [
   {
     name: 'Portfolio',
     describe: 'Portfolio com meus objetivos, projetos e estudos. Desenvolvido usando HTML, CSS, Typescript, React.TSX',
-    src: Protfolio,
+    src: Portfolio,
     github: 'https://github.com/gabrielalencardearaujo/portfolio_galencar',
     website: ''
   },

@@ -1,12 +1,13 @@
 .container {
   max-width: 90vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: 5rem auto;
 }
 
 .content {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
+  place-items: center;
   gap: 1vw;
   margin-bottom: 4rem;
 }
