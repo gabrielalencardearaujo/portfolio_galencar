@@ -97,8 +97,13 @@
   transition: all .3s ease-in-out;
 }
 
+.container .barSlide {
+  animation: pulse 2.5s infinite ease-in-out;
+}
+
 .container .barSlide:hover {
   opacity: 1;
+  animation: pulse 0s step-end;
 }
 
 .container .barSlide.left {
@@ -122,4 +127,19 @@
 
 .translate {
   transform: translate(-80vw);
+}
+
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
