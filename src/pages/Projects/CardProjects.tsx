@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./CardProjects.module.css";
 import { TypejsonFormatProjects } from "../../services/professionalCardProjects";
 
+//Verifica se o componente esta sendo visualizado e aplica a classe "show" (para mostra-lo na tela):
 const observerEntry = new IntersectionObserver(
   (entries: IntersectionObserverEntry[]) => {
     entries.forEach((entry) => {
@@ -32,12 +33,19 @@ function CardProjects({
       <div className={styles.content}>
         <h4 className={styles.title}>{title}</h4>
         <p className={styles.describe}>{describe}</p>
-        <p className={styles.technologies}>{technologies}</p>
+        <p className={styles.technologies}>Tecnologias: {technologies}</p>
 
         <span>
-          <a href={url} target="_blank" rel="noopener noreferrer">
-            Acessar site
-          </a>
+          {url == '' ? (
+            <a href='javascript:void(0)' target="_blank" rel="noopener noreferrer">
+              Acessar site
+            </a>
+          ) : (
+            <a href={url} target="_blank" rel="noopener noreferrer" aria-disabled>
+              Acessar site
+            </a>
+          )}
+          
           <a href={github} target="_blank" rel="noopener noreferrer">
             Repositorio Github
           </a>

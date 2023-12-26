@@ -22,9 +22,9 @@ img {
 }
 
 .content {
-  padding: 2rem 1rem;
   display: grid;
   align-items: center;
+  padding: 2rem 1rem;
   gap: 32px;
 }
 
@@ -35,6 +35,10 @@ img {
 
 p {
   font-size: 1rem;
+}
+
+.describe {
+  min-height: 180px;
 }
 
 .technologies {
@@ -62,7 +66,6 @@ span a:hover {
   opacity: 0;
   filter: blur(10px);
   transition: all 1s;
-
 }
 
 .show {
