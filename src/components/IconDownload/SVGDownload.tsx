@@ -13,7 +13,7 @@ function SVGDownload() {
         <g clipPath="url(#clip0_200_3)">
           <path
             d="M28.5 13.5H22.5V4.5H13.5V13.5H7.5L18 24L28.5 13.5ZM7.5 27V30H28.5V27H7.5Z"
-            fill="#A68080"
+            fill="#838383"
           />
         </g>
         <defs>

@@ -1,10 +1,12 @@
 .cardPhotoContainer {
+  display: grid;
   min-width: 320px;
   max-width: 100%;
   max-height: 100%;
   text-align: center;
   box-shadow: 4px 4px 12px 4px rgb(0 0 0 / 0.3);
   border-radius: 25px;
+  padding-bottom: 2rem;
 }
 
 .cardPhotoContainer img {
@@ -16,13 +18,39 @@
 
 .cardPhotoContainer div {
   display: grid;
-  gap: 20px;
+  gap: 1rem;
   margin: 60px 0px;
+  justify-content: center;
 }
 
 .name {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.btnCurriculum {
+  justify-self: center;
+  border: 1px solid var(--color-base5);
+  border-radius: 15px;
+  max-width: 300px;
+  font-size: 1.25rem;
+  padding: 1rem 2.25rem;
+  color: var(--color-base3);
+  transition: all .3s;
+  text-transform: uppercase;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.btnCurriculum:hover,
+.btnCurriculum:hover svg path {
+  fill: var(--color-primary2);
+  color: var(--color-primary2);
+  border: 1px solid var(--color-primary2);
+  transition: all .3s;
 }
 
 @media only screen and (max-width: 865px) {
