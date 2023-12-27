@@ -21,6 +21,7 @@ import NonImage from '../assets/img/Projects/nonImage.png';
 import LandingPageFinans from '../assets/img/Projects/landpage_finans.png';
 
 
+
 export type TypejsonFormatProjects = {
   url: string;
   title: string;

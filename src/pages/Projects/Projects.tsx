@@ -1,10 +1,10 @@
 import styles from "./Projects.module.css";
+import CardProjects from "./CardProjects";
 import {
   professionalCardProjects,
   TypejsonFormatProjects,
   academicCardProjects
 } from "../../services/professionalCardProjects";
-import CardProjects from "./CardProjects";
 
 function Projects() {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./CardProjects.module.css";
 import { TypejsonFormatProjects } from "../../services/professionalCardProjects";
+import { Link } from "react-router-dom";
 
 //Verifica se o componente esta sendo visualizado e aplica a classe "show" (para mostra-lo na tela):
 const observerEntry = new IntersectionObserver(
@@ -37,11 +38,11 @@ function CardProjects({
 
         <span>
           {url == '' ? (
-            <a href='javascript:void(0)' target="_blank" rel="noopener noreferrer">
-              Acessar site
-            </a>
+           <Link to="/*" target="_blank" rel="noopener noreferrer">
+            Acessar site
+           </Link>
           ) : (
-            <a href={url} target="_blank" rel="noopener noreferrer" aria-disabled>
+            <a href={url} target="_blank" rel="noopener noreferrer">
               Acessar site
             </a>
           )}
