@@ -1,4 +1,4 @@
-//Imports IMG:
+//Imports IMGs:
 import logoPUCPR from '../assets/img/Certificates/logo-PUCPR.jpg';
 import logoUFPE from '../assets/img/Certificates/Logo-ufpe-2-2.jpg';
 import certificadoWebCompleto from '../assets/img/Certificates/certificadoWebCompleto.png';
@@ -12,6 +12,8 @@ import CSSFlexbox from '../assets/img/Certificates/CSS_Flexbox.png';
 import SASS from '../assets/img/Certificates/CSS_SASS.png';
 import UiDesign from '../assets/img/Certificates/UI_Design_Iniciantes.png';
 import JQuery from '../assets/img/Certificates/JQuery.png';
+import Hackathon2018 from '../assets/img/Certificates/hackathon.png';
+
 
 // Imports PDFs:
 import PDF_certificadoWebCompleto from '../assets/img/Certificates/PDFs/DesenvolvimentoWeb_Udemy.pdf';
@@ -24,6 +26,8 @@ import CertificadoJQuery from '../assets/img/Certificates/PDFs/certificado-jQuer
 import CertificadoSass from '../assets/img/Certificates/PDFs/certificado-sass.pdf';
 import CertificadoReact from '../assets/img/Certificates/PDFs/certificado-react.pdf';
 import CertificadoReactComTypescript from '../assets/img/Certificates/PDFs/certificado-reactTSX.pdf';
+import DiplomaUFPE from '../assets/img/Certificates/PDFs/Diploma_UFPE_Gabriel_Alencar.pdf';
+import Hackathon from '../assets/img/Certificates/PDFs/hackathon.pdf';
 import CertificadoGITGITHUB from '../assets/img/Certificates/PDFs/Gabriel-Alencar-de-Araujo-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf';
 
 export type TypeJsonFormation = {
@@ -50,9 +54,17 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
   },
   {
     src: logoUFPE,
+    pdf: DiplomaUFPE,
     describe: "Formado em Matemática pela Universidade Federal de Pernambuco - UFPE",
     dateStart: "Mar/2016",
     dateEnd: "Dez/2022",
+  },
+  {
+    src: Hackathon2018,
+    pdf: Hackathon,
+    describe: "Segundo lugar no Hackathon 2018 em Recife - Tecnologia e Educação",
+    dateStart: "Mai/2018",
+    dateEnd: "Mai/2018",
   },
   {
     src: GitGithubGuanabara,

@@ -15,7 +15,7 @@ function CardFormation({ src, alt, describe, dateStart, dateEnd, pdf, ...props }
   return (
     <a href={pdf} target="_blank">
       <div className={`${styles.cardContainer} hidden`} {...props}>
-        <img src={src} alt={alt} />
+        <img src={src} alt={alt} className={styles.image} />
         <div className={styles.content}>
           <p className={styles.describeCourse}>{describe}</p>
           <div className={styles.dateCourse}>
