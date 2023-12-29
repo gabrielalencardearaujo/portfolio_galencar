@@ -44,7 +44,7 @@ function Introduction({ ...props }: introductionProps) {
           </IconSocialMedia>
         </div>
 
-        <span className={`aboutMeLink  linkInternal`} {...props}>
+        <span className={`aboutMeLink linkInternal`} {...props}>
           Sobre Mim
           <span className="animeLoop">
             <Seta />
