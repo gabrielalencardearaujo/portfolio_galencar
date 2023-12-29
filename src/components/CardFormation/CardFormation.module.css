@@ -63,7 +63,7 @@
   
 .cardContainer {
     grid-template-columns: 1fr;
-    width: 80vw;
+    width: 90vw;
     height: 100%;
   }
 
