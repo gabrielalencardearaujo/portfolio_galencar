@@ -1,6 +1,6 @@
 .cardContainer {
   max-width: 640px;
-  height: 800px;
+  height: 820px;
   display: grid;
   border-radius: 25px;
   /* grid-template-columns: repeat(2, 1fr); */
@@ -72,4 +72,32 @@ span a:hover {
   opacity: 1;
   filter: blur(0);
   transition: all 1s;
+}
+
+
+@media (max-width: 1200px) {
+  .cardContainer {
+    height: 840px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cardContainer {
+    height: 860px;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    min-height: 820px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
 }

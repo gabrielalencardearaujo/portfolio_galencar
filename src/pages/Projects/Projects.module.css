@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   place-items: center;
-  gap: 1vw;
+  gap: 2vw;
   margin-bottom: 8rem;
 }
 
@@ -17,4 +17,15 @@
   margin-left: 6rem;
   font-size: 2.75rem;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
 }
