@@ -44,7 +44,7 @@ export const describeCardProjects = [
     website: ''
   },
   {
-    name: 'OrcamentoPessoal',
+    name: 'Orçamento Pessoal',
     describe: 'WebApp desenvolvido para ajudar na sua gestão financeira. App salva sua renda e despezas do mês, faz o calculo do seu saldo, salva seu histório. Usando HTML, CSS E Javascript',
     src: OrcamentoPessoal,
     github: 'https://github.com/gabrielalencardearaujo/webapp_or-amento_pessoal',

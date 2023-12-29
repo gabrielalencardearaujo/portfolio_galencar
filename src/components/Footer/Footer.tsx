@@ -12,15 +12,42 @@ function Footer() {
       </div>
 
       <div className={styles.linkSocialMedia}>
-        <a href="" className="aboutMeLink" title="Acessar Linkedin">Linkedin</a>
-        <a href="" className="aboutMeLink" title="Acessar Github">Github</a>
-        <a href="" className="aboutMeLink" title="Acessar Whatsapp">Whatsapp</a>
+        <a
+          href="https://www.linkedin.com/in/gabriel-alencar-de-ara%C3%BAjo/"
+          className="aboutMeLink"
+          title="Acessar Linkedin"
+          target="_blank"
+        >
+          Linkedin
+        </a>
+        <a
+          href="https://github.com/gabrielalencardearaujo"
+          className="aboutMeLink"
+          title="Acessar Github"
+          target="_blank"
+        >
+          Github
+        </a>
+        <a
+          href="https://wa.me/5511955208843"
+          className="aboutMeLink"
+          title="Acessar Whatsapp"
+          target="_blank"
+        >
+          Whatsapp
+        </a>
       </div>
 
       <div className={styles.linkSocialMedia}>
-        <Link to="/" className="aboutMeLink">Home</Link>
-        <Link to="/projects" className="aboutMeLink">Projetos</Link>
-        <Link to="/education" className="aboutMeLink">Formação</Link>
+        <Link to="/" className="aboutMeLink">
+          Home
+        </Link>
+        <Link to="/projects" className="aboutMeLink">
+          Projetos
+        </Link>
+        <Link to="/education" className="aboutMeLink">
+          Formação
+        </Link>
       </div>
 
       <div className={styles.voltarTopo}>

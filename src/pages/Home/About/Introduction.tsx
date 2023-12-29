@@ -7,7 +7,6 @@ import Seta from "../../../components/SVGComponents/Seta";
 import { introductionProps } from "./type";
 
 function Introduction({ ...props }: introductionProps) {
-
   return (
     <div className={`${styles.container} animeEntryRight`}>
       <div>
@@ -37,7 +36,10 @@ function Introduction({ ...props }: introductionProps) {
             <IconLinkedin />
           </IconSocialMedia>
 
-          <IconSocialMedia href="" describe="Whatsapp">
+          <IconSocialMedia
+            href="https://wa.me/5511955208843"
+            describe="Whatsapp"
+          >
             <IconWhatsapp />
           </IconSocialMedia>
         </div>
