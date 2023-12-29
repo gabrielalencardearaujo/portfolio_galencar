@@ -1,6 +1,6 @@
 .container {
   max-width: 80vw;
-  height: 60vh;
+  min-height: 60vh;
   margin: 0 auto;
   margin-top: 1.5rem;
   display: grid;
