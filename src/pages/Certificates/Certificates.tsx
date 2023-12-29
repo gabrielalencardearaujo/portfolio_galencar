@@ -21,7 +21,7 @@ function Certificates() {
   
   return (
     <section className={styles.container}>
-      <h1 className={`titleDetails ${styles.title}`}>FORMAÇÃO</h1>
+      <h1 className={`titleDetails ${styles.title}`}>Certificados</h1>
 
       <div className={styles.content}>
         {jsonFormatCardCertificate.map((certificate: TypeJsonFormation, index: number) => (
