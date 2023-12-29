@@ -47,4 +47,26 @@
 
 .dateCourse span {
   text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: start;
+
+}
+
+@media (max-width: 1024px) {
+  .cardContainer {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .describeCourse {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .dateCourse {
+    font-size: 0.475rem;
+  }
 }
