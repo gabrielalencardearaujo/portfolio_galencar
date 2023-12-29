@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-
   font-size: 1.5rem;
 }
 
@@ -24,7 +23,6 @@
   flex-direction: row !important;
   align-items: center;
   color: var(--color-neutral1);
-
 }
 
 .voltarTopo a {
@@ -33,6 +31,15 @@
   gap: 20px;
   text-align: center;
   font-weight: 600;
+}
+
+.voltarTopo p {
+  font-size: 1.5rem;
+}
+
+.voltarTopo svg {
+  min-width: 32px;
+  min-height: 17px;
 }
 
 .voltarTopo svg path {
@@ -50,3 +57,38 @@
   transform: rotate(-90deg);
 }
 
+@media (max-width: 1200px) {
+  .voltarTopo p {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .containerFooter {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));  
+    gap: 4rem;
+  }
+
+  .voltarTopo p {
+    font-size: 1.5rem;
+  }
+
+  .voltarTopo {
+    order: -1;
+  }
+
+  .containerFooter .linkSocialMedia {
+    margin-left:10vw ;
+  }
+}
+
+@media (max-width: 480px) {
+  .voltarTopo p {
+    font-size: 1rem;
+  }
+
+  .voltarTopo a {
+    gap: 10px;
+  }
+
+}

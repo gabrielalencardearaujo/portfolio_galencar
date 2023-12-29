@@ -38,7 +38,7 @@ function Footer() {
         </a>
       </div>
 
-      <div className={styles.linkSocialMedia}>
+      <div className={styles.internalLinks}>
         <Link to="/" className="aboutMeLink">
           Home
         </Link>
