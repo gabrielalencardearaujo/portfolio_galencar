@@ -38,7 +38,7 @@
   color: var(--color-base3);
   transition: all .3s;
   text-transform: uppercase;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,12 +53,50 @@
   transition: all .3s;
 }
 
-@media only screen and (max-width: 865px) {
+@media only screen and (max-width: 1024px) {
   .cardPhotoContainer {
-    background-color: red;
+    width: 180px;
+    margin: 0 auto;
+    max-height: 620px;
+  }
+
+  .cardPhotoContainer img { 
+    height: 280px;
   }
 
   .cardPhotoContainer div {
-    margin: 30px 0px;
+    gap: 0.5rem;
+    margin: 40px 0px;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cardPhotoContainer {
+    display: grid;
+    min-width: 320px;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    box-shadow: none;
+    padding-bottom: 0;
+  }
+
+  .cardPhotoContainer img {
+    width: 160px;
+    height: 160px;
+    margin: 14px auto;
+    border-radius: 50%;
+  }
+
+  .cardPhotoContainer div {
+    margin: 30px 0px 10px 0px;
+  }
+
+  .btnCurriculum { 
+    display: none;
   }
 }

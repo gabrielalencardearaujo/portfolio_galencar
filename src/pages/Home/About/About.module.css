@@ -6,12 +6,25 @@
   margin: 0 auto;
   margin: 3.75rem auto;
   gap: 40px;
-  /* background-color: red; */
 }
 
 @media only screen and (max-width: 1024px) {
+  .containerAbout { 
+    grid-template-columns: minmax(320px, auto) 2fr;
+    gap: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .containerAbout {
-    grid-template-columns: repeat(auto-fit, minmax(320px, auto));
+    grid-template-columns: 1fr;
     max-height: 100%;
+    width: 95vw;
+  }
+}
+
+@media (orientation: portrait) {
+  .containerAbout { 
+    min-height: 74vw;
   }
 }

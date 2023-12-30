@@ -68,6 +68,7 @@ header span:hover {
 
   to {
     opacity: 1;
+    display: block;
     transform: translate(0);
   }
 }
@@ -116,4 +117,11 @@ header span:hover {
   .menuActive {
     transform: translate(0);
   }
+}
+
+@media (max-width: 480px) {
+  .mobileMenu {
+    margin-right: 24px;
+  }
+
 }
