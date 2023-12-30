@@ -32,18 +32,6 @@
   gap: 20px;
 }
 
-/* About Me */
-
-h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  color: var(--color-neutral3);
-}
-
-.describe {
-  font-size: 1.35rem;
-}
-
 /* ANIMATION TYPEWORD */
 
 .title span {

@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  gap: 20%;
+  height: 100%;
+  justify-content: start;
+  align-content: center;
+  padding: 8.3%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-neutral3);
+}
+
+.describe {
+  font-size: 1.35rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    gap: 5%;
+  }
+
+  .describe {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) { 
+  .describe {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) { 
+  .describe {
+    font-size: 1rem;
+  }
+}

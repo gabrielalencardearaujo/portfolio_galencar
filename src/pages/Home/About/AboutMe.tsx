@@ -1,11 +1,11 @@
 import Seta from "../../../components/SVGComponents/SetaLeft";
-import styles from "./Introduction.module.css";
+import styles from "./AboutMe.module.css";
 import { introductionProps } from "./type";
 
 function AboutMe({ ...props }: introductionProps) {
   return (
     <article className={`${styles.container} animeEntryRight`}>
-      <h2>Um pouco mais sobre mim...</h2>
+      <h2 className={styles.title}>Um pouco mais sobre mim...</h2>
       <p className={styles.describe}>
         Olá, sou Gabriel Alencar, sou entusiasta da programação e da automação,
         comprometido com a excelência na criação de soluções inovadoras. Minha
