@@ -2,10 +2,11 @@
   display: grid;
   grid-template-columns: minmax(400px, auto) 2fr;
   width: 88vw;
-  height: 74vh;
+  min-height: 74vh;
   margin: 0 auto;
   margin: 3.75rem auto;
   gap: 40px;
+  /* background-color: red; */
 }
 
 @media only screen and (max-width: 1024px) {

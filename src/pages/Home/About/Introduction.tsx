@@ -8,7 +8,7 @@ import { introductionProps } from "./type";
 
 function Introduction({ ...props }: introductionProps) {
   return (
-    <div className={`${styles.container} animeEntryRight`}>
+    <section className={`${styles.container} animeEntryRight`}>
       <div>
         <h1 className={styles.title}>
           Desenvolvedor <span></span>
@@ -44,14 +44,14 @@ function Introduction({ ...props }: introductionProps) {
           </IconSocialMedia>
         </div>
 
-        <span className={`aboutMeLink linkInternal`} {...props}>
-          Sobre Mim
+        <span className={`${styles.btnAboutMe} aboutMeLink linkInternal`} {...props}>
+          <p>Sobre Mim</p>
           <span className="animeLoop">
             <Seta />
           </span>
         </span>
       </div>
-    </div>
+    </section>
   );
 }
 
