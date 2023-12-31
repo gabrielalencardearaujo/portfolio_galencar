@@ -1,9 +1,8 @@
 .cardContainer {
   max-width: 640px;
-  height: 820px;
+  height: 860px;
   display: grid;
   border-radius: 25px;
-  /* grid-template-columns: repeat(2, 1fr); */
   outline: 1px solid var(--color-base5);
   overflow: hidden;
   transition: .4s ease-in-out;
@@ -75,15 +74,18 @@ span a:hover {
 }
 
 
-@media (max-width: 1200px) {
-  .cardContainer {
-    height: 840px;
-  }
-}
-
 @media (max-width: 1024px) {
   .cardContainer {
-    height: 860px;
+    height: 760px;
+  }
+
+  .content {
+    padding: 1rem 0.5rem;
+    gap: 32px;
+  }
+
+  img {
+    height: 260px;
   }
 
   p {
@@ -93,11 +95,26 @@ span a:hover {
 
 @media (max-width: 768px) {
   .cardContainer {
-    min-height: 820px;
+    height: auto;
+  }
+
+  img {
+    height: 340px;
   }
 
   p {
     font-size: 1rem;
   }
+}
 
+@media (max-width: 480px) {
+
+  img {
+    height: 260px;
+  }
+
+  span a {
+    font-size: 1rem;
+    font-weight: 400;
+  }
 }
