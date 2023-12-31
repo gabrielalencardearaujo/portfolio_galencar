@@ -1,15 +1,17 @@
 .containerFormation {
   max-width: 90vw;
-  height: 125vh;
+  min-height: 125vh;
   margin: 0 auto;
   margin-bottom: 10rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 8vw;
+  /* background-color: red; */
 }
 
 .formation {
   display: grid;
+  margin: 0 auto;
 }
 
 .leftIdent {
@@ -41,7 +43,6 @@
   justify-content: center;
   align-items: end;
   transition: .2s ;
-
 }
 
 .containerIcons span p {
@@ -68,7 +69,6 @@
 .containerIcons span:hover p {
   color: var(--color-primary2);
   fill: var(--color-primary2);
-  
 }
 
 .containerIcons span:nth-child(6):hover svg path {
@@ -77,4 +77,92 @@
 
 .containerIcons span > * {
   justify-self: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 1400px) {
+  .containerIcons {
+    row-gap: 40px;
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+  }
+  
+  .containerIcons span p {
+    font-size: 1rem;
+  }
+  
+  .containerIcons span svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1024px) { 
+  .containerFormation {
+    grid-template-columns: repeat(1, minmax(120px, 1fr));
+    gap: 10vw;
+  }
+
+  .formation {
+    gap: 2vw;
+  }
+
+  .containerIcons {
+    row-gap: 60px;
+    grid-template-columns: repeat(5, minmax(120px, 1fr));
+  }
+
+  .containerIcons span p {
+    font-size: 1.2rem;
+  }
+  
+  .containerIcons span svg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) { 
+  .containerFormation {
+    max-width: 80vw;
+    margin-bottom: 6rem;
+    grid-template-columns: repeat(1, minmax(120px, 1fr));
+    place-items: center;
+    margin-left: 32px;
+
+    gap: 10vw;
+  }
+
+  .formation {
+    justify-self: center;
+  }
+
+  .containerIcons {
+    row-gap: 20px;
+    grid-template-columns: repeat(3, minmax(160px, 1fr));
+  }
+}
+
+@media (max-width: 480px) { 
+  .containerFormation {
+    margin-left: 24px;
+  }
+
+  .formation {
+    margin: 0 auto;
+  }
+
+  .containerIcons {
+    row-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .containerIcons span p {
+    font-size: 1rem;
+  }
+  
+  .containerIcons span svg {
+    width: 60px;
+    height: 60px;
+  }
 }
