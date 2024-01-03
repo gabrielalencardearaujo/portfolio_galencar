@@ -23,7 +23,7 @@ function CardProject({
     <a
       href={website}
       target="_blank"
-      className={`${styles.cardContainer} ${styles[id]} hidden`}
+      className={`${styles.cardContainer} ${styles[id]}  hidden`}
       id={id}
     >
       <img src={src} alt="" />

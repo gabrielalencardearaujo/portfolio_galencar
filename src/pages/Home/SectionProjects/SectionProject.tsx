@@ -3,41 +3,14 @@ import styles from "./SectionProject.module.css";
 import { describeCardProjects } from "../../../assets/img/utils";
 import { NavLink } from "react-router-dom";
 import Seta from "../../../components/SVGComponents/Seta";
-import SetaSlide from "../../../assets/svg/SetaSlide";
-import React from "react";
 
 function SectionProject() {
-  const [slide, setSlide] = React.useState(false);
-  const sectionProjects: React.LegacyRef<HTMLElement> | HTMLElement = React.useRef(null);
-  const slideBar: React.LegacyRef<HTMLDivElement> | HTMLElement = React.useRef(null);
-
-  React.useEffect(() => {
-    if(slide) {
-      sectionProjects.current?.classList.add(`${styles.translate}`) 
-      slideBar.current?.classList.remove(`${styles.left}`)
-      slideBar.current?.classList.add(`${styles.right}`)
-    } else {
-      sectionProjects.current?.classList.remove(`${styles.translate}`) 
-      slideBar.current?.classList.remove(`${styles.right}`)
-      slideBar.current?.classList.add(`${styles.left}`)
-    }       
-
-  }, [slide]);
-
   return (
-    <section className={`${styles.container}`} ref={sectionProjects}>
-      <div
-        className={`${styles.barSlide} animeLoop ${styles.right}`}
-        onClick={() => setSlide(!slide)}
-        ref={slideBar}
-      >
-        <SetaSlide />
-      </div>
-
+    <section className={styles.container}>
+      <h1 className="titleDetails">Projetos</h1>
       <div className={styles.content}>
-        <h1>Projects</h1>
         {describeCardProjects.map((project, index) => {
-          if (index < 8) {
+          if (index < 4) {
             return (
               <CardProject
                 key={`project${index}`}
@@ -52,10 +25,12 @@ function SectionProject() {
           }
         })}
 
-        <NavLink to="/projects" className={styles.seeMore}>
-          Veja Mais
-          <span className={styles.iconSeta}>
-            <Seta />
+        <NavLink to="projects" className={styles.leftIdent}>
+          <span className={`aboutMeLink linkInternal`}>
+            <p>Veja mais</p>
+            <span className="animeLoop">
+              <Seta />
+            </span>
           </span>
         </NavLink>
       </div>
