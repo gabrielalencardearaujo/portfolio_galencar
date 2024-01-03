@@ -57,6 +57,10 @@
   .cardContainer {
     max-width: 720px;
   }
+
+  .image {
+    min-height: 280px;
+  }
 }
 
 @media (max-width: 768px) {
