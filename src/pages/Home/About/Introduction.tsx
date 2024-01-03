@@ -30,7 +30,7 @@ function Introduction({ ...props }: introductionProps) {
           </IconSocialMedia>
 
           <IconSocialMedia
-            href="https://linkedin.com/in/gabriel-alencar-de-araújo"
+            href="https://www.linkedin.com/in/gabriel-alencar-de-araujo/"
             describe="Linkedin"
           >
             <IconLinkedin />

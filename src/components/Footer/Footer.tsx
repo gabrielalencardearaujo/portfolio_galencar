@@ -13,7 +13,7 @@ function Footer() {
 
       <div className={styles.linkSocialMedia}>
         <a
-          href="https://www.linkedin.com/in/gabriel-alencar-de-ara%C3%BAjo/"
+          href="https://www.linkedin.com/in/gabriel-alencar-de-araujo/"
           className="aboutMeLink"
           title="Acessar Linkedin"
           target="_blank"
