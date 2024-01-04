@@ -57,7 +57,7 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     pdf: DiplomaUFPE,
     describe: "Formado em Matemática pela Universidade Federal de Pernambuco - UFPE",
     dateStart: "Mar/2016",
-    dateEnd: "Dez/2022",
+    dateEnd: "Dez/2021",
   },
   {
     src: Hackathon2018,
