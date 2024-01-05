@@ -91,7 +91,7 @@ export const academicCardProjects = [
     alt: 'Projeto academico que simula uma agenda virtual.'
   },
   {
-    url: '',
+    url: 'https://app-dog-social-media.vercel.app/',
     title: 'AppDog - Rede Social de Cachorros',
     describe: 'Projeto feito nas aulas de ReactJSX do curso da Origamid, site conta com sistema de login, cadastro de usuarios, upload de imagens, comentarios em fotos, uso de APIs Rest na comunicação com backend, telas de errors, telas de loading, dentre outros.',
     technologies: 'HTML, CSS, APIs REST, ReactJSX.',
