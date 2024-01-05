@@ -34,11 +34,11 @@ export type TypejsonFormatProjects = {
 
 export const professionalCardProjects = [
   {
-    url: '',
+    url: 'https://espelho-reversa.vercel.app/',
     title: 'Espelho Reversa',
     describe: 'Desenvolvido para ajudar a reversa (conferência) nos serviços de suporte ao cliente com máquinas de cartão de crédito no meu local de trabalho. A partir do excel fornecido pelo banco de dados da empresa, o app separa os serviços por motoboy e por tipo de baixa no sistema, verifica se a máquina e sua baixa sistêmica estão corretos, salva na base de dados e emite documento impresso. Usei tecnologias como HTML5, CSS3, Javascript e API externa para converter os dados de arquivo .xlsx em .json.',
     technologies: 'HTML, CSS, Javascript e API externa para converter os dados de arquivo .xlsx em .json.',
-    github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
+    github: 'https://github.com/gabrielalencardearaujo/Espelho_Reversa',
     src: ProjetoEspelho,
     alt: 'Projeto Espelho - Safra'
   },
@@ -52,7 +52,7 @@ export const professionalCardProjects = [
     alt: 'Meu Portfolio'
   },
   {
-    url: '',
+    url: 'https://painel-chegada-safra.vercel.app/',
     title: 'Painel de Chegada - Safra',
     describe: 'App desenvolvido para tentar suprir a necessidade de organizar o processo de entrega e retirada de novos serviços na empresa de Logística que eu trabalhava, este processo tinha duas etapas que dependia uma da outra. O App registra a chegada dos motoboys previamente cadastrados e em qual das etapas se encontrava, para que tanto o motoboy quanto os funcionários da empresa conseguisse atender todos na ordem. Assim como guarda o registro de saida e tempo de permanencia na base.',
     technologies: 'HTML, CSS e Javascript.',

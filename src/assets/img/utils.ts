@@ -13,21 +13,21 @@ export const describeCardProjects = [
     describe: 'Desenvolvido para ajudar a reversa (conferência) nos serviços de suporte ao cliente com máquinas de cartão de crédito no meu local de trabalho. A partir do excel fornecido pelo banco de dados da empresa, o app separa os serviços por motoboy e por tipo de baixa no sistema, verifica se a máquina e a baixa sistêmica estão corretos, salva na base de dados e emite documento impresso. Usei tecnologias como HTML5, CSS3, Javascript e API externa para converter os dados de arquivo .xlsx em .json. ',
     src: ProjetoEspelho,
     github: 'https://github.com/gabrielalencardearaujo/Projeto_Espelho',
-    website: ''
+    website: 'https://espelho-reversa.vercel.app/'
   },
   {
     name: 'Portfolio',
     describe: 'Portfolio com meus objetivos, projetos e estudos. Desenvolvido usando HTML, CSS, Typescript, React.TSX',
     src: Portfolio,
     github: 'https://github.com/gabrielalencardearaujo/portfolio_galencar',
-    website: ''
+    website: 'https://galencar.vercel.app/'
   },
   {
     name: 'Painel Chegada - Safra',
     describe: 'Desenvolvido para gerenciar a ordem de chegada e acompanhamento dos motoboys na retirada/entrega de serviços. App contém sistema de cadastro de novos motoboys e salva no localStorage. Tecnologias usadas: HTML, CSS e JQuery.',
     src: PainelChegada,
     github: 'https://github.com/gabrielalencardearaujo/Painel_Chegada_Safra',
-    website: ''
+    website: 'https://painel-chegada-safra.vercel.app/'
   },
   {
     name: 'RegexTool',
@@ -64,11 +64,4 @@ export const describeCardProjects = [
     github: 'https://github.com/gabrielalencardearaujo/Project-Mini_Game-Colors',
     website: ''
   },
-  {
-    name: 'Veja Mais',
-    describe: '',
-    src: '',
-    github: '',
-    website: ''
-  }
 ]
