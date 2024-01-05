@@ -34,7 +34,7 @@ export const describeCardProjects = [
     describe: 'WebApp para estudar Regex, com feedback dinâmico e instantâneo dos caracteres selecionados usando expressões regulares. Projeto desenvolvido com HTML, CSS, e Typescript.',
     src: RegexTool,
     github: 'https://github.com/gabrielalencardearaujo/Character_Counter',
-    website: ''
+    website: 'https://character-counter-tau.vercel.app/regex.html'
   },
   {
     name: 'QuizFlag',

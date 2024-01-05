@@ -100,6 +100,15 @@ export const academicCardProjects = [
     alt: 'Projeto academico que simula rede social de cachorros.'
   },
   {
+    url: 'https://character-counter-tau.vercel.app/regex.html',
+    title: 'Regex Tool',
+    describe: 'Projeto desenvolvido para treinar expressões regulares. Você insere um texto para servir de exemplo e pode inserir qualquer expressão regular. Ao clicar em resultado ele retorna o texto de exemplo com os caracteres destacados que foram selecionados pela expressão regular informada. O projeto informa também o número de ocorrências registradas daquela regex.',
+    technologies: 'HTML, CSS e Typescript',
+    github: 'https://github.com/gabrielalencardearaujo/Character_Counter',
+    src: RegexTool,
+    alt: 'Ferramenta para treinar Expressões Regulares.'
+  },
+  {
     url: '',
     title: 'Brafé',
     describe: 'Projeto desenvolvido nas aulas de Flexbox no curso de CSS na Origamid. Simula um site de uma cafeteria no rio de janeiro. ',
@@ -109,7 +118,7 @@ export const academicCardProjects = [
     alt: 'Projeto academico de uma loja cafeteria.'
   },
   {
-    url: '',
+    url: 'https://character-counter-tau.vercel.app/index.html',
     title: 'Contador de Caracteres',
     describe: 'Website desenvolvido para contar palavras e caracteres de um texto. Você pode informar qual palavra ou letra quer que seja contada, ou caso queira, também conta o número de caracteres totais do texto.',
     technologies: 'HTML, CSS e Typescript.',
@@ -170,15 +179,6 @@ export const academicCardProjects = [
     github: 'https://github.com/gabrielalencardearaujo/webapp_or-amento_pessoal',
     src: OrcamentoPessoal,
     alt: 'WebApp orçamento financeiro pessoal.'
-  },
-  {
-    url: '',
-    title: 'Regex Tool',
-    describe: 'Projeto desenvolvido para treinar expressões regulares. Você insere um texto para servir de exemplo e pode inserir qualquer expressão regular. Ao clicar em resultado ele retorna o texto de exemplo com os caracteres destacados que foram selecionados pela expressão regular informada. O projeto informa também o número de ocorrências registradas daquela regex.',
-    technologies: 'HTML, CSS e Typescript',
-    github: 'https://github.com/gabrielalencardearaujo/Character_Counter',
-    src: RegexTool,
-    alt: 'Ferramenta para treinar Expressões Regulares.'
   },
   {
     url: '',
