@@ -41,7 +41,7 @@ export const describeCardProjects = [
     describe: 'Mini Jogo para melhorar seus conhecimentos sobre bandeiras de países. Jogo conta com sistema de vidas, temporizador e placar. Tecnologias usads: HTML, CSS e Javascript',
     src: QuizFlag,
     github: 'https://github.com/gabrielalencardearaujo/game_quiz_flags',
-    website: ''
+    website: 'https://game-quiz-flags.vercel.app/'
   },
   {
     name: 'Orçamento Pessoal',

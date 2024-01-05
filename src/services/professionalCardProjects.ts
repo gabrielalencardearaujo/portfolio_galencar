@@ -70,7 +70,7 @@ export const academicCardProjects = [
     technologies: 'HTML, CSS, Javascript, React.',
     github: 'https://github.com/gabrielalencardearaujo/to_do_list',
     src: toDoList,
-    alt: ''
+    alt: 'app lista de tarefas'
   },
   {
     url: '',
@@ -163,7 +163,7 @@ export const academicCardProjects = [
     alt: 'Mini game mata mosquito.'
   },
   {
-    url: '',
+    url: 'https://game-quiz-flags.vercel.app/',
     title: 'Mini Game - Quiz Flag',
     describe: 'Mini Game para advinhar qual o país da bandeira. O jogo apresentará uma bandeira de algum país do mundo e quatro nomes de países, você deve escolher de qual país é a bandeira apresentada. Jogo conta com sistema de placar.',
     technologies: 'HTML, CSS e Javascript',
