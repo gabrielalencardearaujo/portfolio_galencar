@@ -127,7 +127,7 @@ export const academicCardProjects = [
     alt: 'Contador de palavras e caracteres.'
   },
   {
-    url: '',
+    url: 'https://project-mini-game-colors.vercel.app/',
     title: 'Color Quiz',
     describe: 'Mini Game para treinar seus conhecimentos com códigos hexadecimais e RGB de colores. O jogo conta com dois níveis de dificuldade e com cronômetro, escolha uma das dificuldades e comece o jogo. O jogo informará um código RGB ou Hexadecimal de uma cor aleatória e lhe dará 6 escolhas, você deve clicar na cor correspondente ao código. O objetivo é acertar o máximo de cores possíveis. ',
     technologies: 'HTML, CSS e Javascript.',
@@ -154,7 +154,7 @@ export const academicCardProjects = [
     alt: 'Conversor de Moedas Nacionais e Criptomoedas.'
   },
   {
-    url: '',
+    url: 'https://game-mata-mosquito-two.vercel.app/index.html',
     title: 'Mini Game - Mata Mosquito',
     describe: 'Mini Game desenvolvido nas aulas de Javascript do Curso de Desenvolvimento Web - Jamilton Damasceno e Jorge Sant Ana na Udemy. O objetivo do jogo é matar o todos os mosquitos que aparecer na tela (clicando neles) até o tempo esgotar, se você errar perderá uma vida, se errar três vezes você perde o game.',
     technologies: 'HTML, CSS e Javascript',
