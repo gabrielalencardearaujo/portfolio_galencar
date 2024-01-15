@@ -13,7 +13,7 @@ type CardProps = React.ComponentProps<"img"> & {
 function CardFormation({ src, alt, describe, dateStart, dateEnd, pdf, ...props }: CardProps) {
 
   return (
-    <a href={pdf} target="_blank">
+    <a className="linkCard" href={pdf} target="_blank">
       <div className={`${styles.cardContainer} hidden`} {...props}>
         <img src={src} alt={alt} className={styles.image} />
         <div className={styles.content}>

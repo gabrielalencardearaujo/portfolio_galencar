@@ -13,7 +13,7 @@ import SASS from '../assets/img/Certificates/CSS_SASS.png';
 import UiDesign from '../assets/img/Certificates/UI_Design_Iniciantes.png';
 import JQuery from '../assets/img/Certificates/JQuery.png';
 import Hackathon2018 from '../assets/img/Certificates/hackathon.png';
-
+import FreeCodeCamp_JS from '../assets/img/Certificates/FreeCodeCamp_Javascript.png'
 
 // Imports PDFs:
 import PDF_certificadoWebCompleto from '../assets/img/Certificates/PDFs/DesenvolvimentoWeb_Udemy.pdf';
@@ -51,6 +51,13 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     describe: "Curso Online de Desenvolvimento Web Completo - Udemy - 117 horas",
     dateStart: "Abr/2023",
     dateEnd: "Dez/2023",
+  },
+  {
+    src: FreeCodeCamp_JS,
+    pdf: 'https://www.freecodecamp.org/certification/Galencar/javascript-algorithms-and-data-structures',
+    describe: "Certificado de Estrutura de Dados com Javascript na FreeCodeCamp",
+    dateStart: "Set/2023",
+    dateEnd: "Jan/2023",
   },
   {
     src: logoUFPE,
