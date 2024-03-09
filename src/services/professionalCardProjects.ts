@@ -1,4 +1,5 @@
 import toDoList from '../assets/img/Projects/to_do_list.png';
+import pomodoroApp from '../assets/img/Projects/pomodoro-app.png';
 import ProjetoEspelho from '../assets/img/Projects/projetoEspelho.png';
 import Portfolio from '../assets/img/Projects/portfolio.png';
 import Bikecraft from '../assets/img/Projects/bikecraft.png';
@@ -18,6 +19,8 @@ import WildBeast from '../assets/img/Projects/wildbeast.png';
 import StopWatch from '../assets/img/Projects/stopwatch.png';
 import Calculator from '../assets/img/Projects/simpleCalculator.png';
 import NonImage from '../assets/img/Projects/nonImage.png';
+import ApiRest from '../assets/img/Projects/api-rest.png';
+import excelToJson from '../assets/img/Projects/excel-to-json.jpg';
 import LandingPageFinans from '../assets/img/Projects/landpage_finans.png';
 
 
@@ -58,7 +61,16 @@ export const professionalCardProjects = [
     technologies: 'HTML, CSS e Javascript.',
     github: 'https://github.com/gabrielalencardearaujo/Painel_Chegada_Safra',
     src: PainelChegada,
-    alt: ''
+    alt: 'Painel de Chegada - Sequoia - PA Mooca'
+  },
+  {
+    url: '',
+    title: 'API para Clinica de estetica.',
+    describe: 'API desenvolvida para landingpage de Clinica de Estética, uso de jwt para autenticação, CRUD de usuários e consultas. Desenvolvido em conjunto com a landingpage.',
+    technologies: 'Typescript, Nodejs, PostgreSQL, MongoDB, jwt.',
+    github: 'https://github.com/gabrielalencardearaujo/Painel_Chegada_Safra',
+    src: ApiRest,
+    alt: 'Api Rest para clinica de estetica'
   },
 ]
 
@@ -71,6 +83,42 @@ export const academicCardProjects = [
     github: 'https://github.com/gabrielalencardearaujo/to_do_list',
     src: toDoList,
     alt: 'app lista de tarefas'
+  },
+  {
+    url: 'https://pomodoro-app-phi-ruddy.vercel.app/',
+    title: 'Pomodoro - App',
+    describe: 'App de Pomodoro para me auxiliar nos estudos. Desenvolvido nas aulas de Javascript e Typescript no curso Curso de JavaScript e TypeScript do básico ao avançado JS/TS',
+    technologies: 'HTML, CSS, Typescript, React',
+    github: 'https://github.com/gabrielalencardearaujo/Pomodoro-App',
+    src: pomodoroApp,
+    alt: 'Pomodoro App'
+  },
+  {
+    url: '',
+    title: 'API Rest - CRUD Usuários',
+    describe: 'Projeto desenvolvido como template para desenvolvimento de APIs com autenticação de usuário e CRUD com MySQL.',
+    technologies: 'Typescript, NodeJs, Knex, MySQL',
+    github: 'https://github.com/gabrielalencardearaujo/api_rest_users',
+    src: ApiRest,
+    alt: 'API Rest - CRUD Usuários'
+  },
+  {
+    url: '',
+    title: 'API Rest - Aluguel de Filmes',
+    describe: 'Projeto desenvolvido como nas aulas de NodeJS do curso Formação NodeJs, simula uma API para aluguel de filmes.',
+    technologies: 'Typescript, NodeJs, PrismaJs, SQLite',
+    github: 'https://github.com/gabrielalencardearaujo/api_movieRent',
+    src: ApiRest,
+    alt: 'API Rest - CRUD Filmes'
+  },
+  {
+    url: '',
+    title: 'Conversor de Excel para Json com NodeJs',
+    describe: 'Aplicação que converte arquivos .csv ou .xlsx para objeto json. Desenvolvido nas aulas de Nodejs no curso de Formação NodeJs na Udemy.',
+    technologies: 'NodeJS, EJS, HTML-PDF',
+    github: 'https://github.com/gabrielalencardearaujo/conversor_excel_to_json',
+    src: excelToJson,
+    alt: 'Conversor de arquivos Excel para Json'
   },
   {
     url: '',
