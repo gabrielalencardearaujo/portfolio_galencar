@@ -17,12 +17,18 @@ import IconTypescript from "../../../assets/svg/svgTechnologies/Components/IconT
 import IconSass from "../../../assets/svg/svgTechnologies/Components/IconSass";
 import IconReact from "../../../assets/svg/svgTechnologies/Components/IconReact";
 import IconVite from "../../../assets/svg/svgTechnologies/Components/IconVite";
+import IconPostgreSQL from "../../../assets/svg/svgTechnologies/Components/IconPostgreSQL";
+import IconNextJs from "../../../assets/svg/svgTechnologies/Components/IconNextJs";
+import IconTailwind from "../../../assets/svg/svgTechnologies/Components/IconTailwind";
+import IconPrisma from "../../../assets/svg/svgTechnologies/Components/IconPrisma";
+import IconNestJs from "../../../assets/svg/svgTechnologies/Components/IconNest";
+import IconJest from "../../../assets/svg/svgTechnologies/Components/IconJest";
 
 function AllTechnologies() {
   return (
     <>
       <span className="icon hidden">
-        <IconHTML5 /> 
+        <IconHTML5 />
         <p>HTML5</p>
       </span>
       <span className="icon hidden">
@@ -38,7 +44,7 @@ function AllTechnologies() {
         <p>Typescript</p>
       </span>
       <span className="icon hidden">
-        <IconReact />       
+        <IconReact />
         <p>React</p>
       </span>
       <span className="figma hidden">
@@ -46,56 +52,80 @@ function AllTechnologies() {
         <p>Figma</p>
       </span>
       <span className="icon hidden">
-        <IconSass />       
+        <IconSass />
         <p>Sass</p>
+      </span>
+      <span className="icon hidden">
+        <IconTailwind />
+        <p>Tailwind</p>
       </span>
       <span className="icon hidden">
         <IconBootstrap />
         <p>Bootstrap</p>
       </span>
       <span className="icon hidden">
+        <IconNextJs />
+        <p>NextJs</p>
+      </span>
+      <span className="icon hidden">
         <IconNodeJS />
         <p>NodeJS</p>
+      </span>
+      <span className="icon hidden">
+        <IconNestJs />
+        <p>NestJs</p>
+      </span>
+      <span className="icon hidden">
+        <IconJQuery />
+        <p>JQuery</p>
       </span>
       <span className="icon hidden">
         <IconMongoDB />
         <p>MongoDB</p>
       </span>
       <span className="icon hidden">
-        <IconPython />       
-        <p>Python</p>
-      </span>
-      <span className="icon hidden">
-        <IconPHP />        
-        <p>PHP</p>
-      </span>
-      <span className="icon hidden">
-        <IconJQuery /> 
-        <p>JQuery</p>
-      </span>
-      <span className="icon hidden">
-        <IconJava /> 
-        <p>Java</p>
-      </span>
-      <span className="icon hidden">
         <IconMySQL />
         <p>MySQL</p>
+      </span>
+      <span className="icon hidden">
+        <IconPostgreSQL />
+        <p>PostgreSQL</p>
+      </span>
+      <span className="icon hidden">
+        <IconPrisma />
+        <p>PrismaJs</p>
       </span>
       <span className="icon hidden">
         <IconLinux />
         <p>Linux</p>
       </span>
       <span className="icon hidden">
+        <IconPython />
+        <p>Python</p>
+      </span>
+      <span className="icon hidden">
+        <IconPHP />
+        <p>PHP</p>
+      </span>
+      <span className="icon hidden">
+        <IconJava />
+        <p>Java</p>
+      </span>
+      <span className="icon hidden">
         <IconGit />
         <p>Git</p>
       </span>
       <span className="icon hidden">
-        <IconGithub />  
+        <IconGithub />
         <p>Github</p>
       </span>
       <span className="icon hidden">
-        <IconVite />       
+        <IconVite />
         <p>Vite</p>
+      </span>
+      <span className="icon hidden">
+        <IconJest />
+        <p>Jest</p>
       </span>
     </>
   );

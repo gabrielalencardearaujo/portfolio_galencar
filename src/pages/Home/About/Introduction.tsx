@@ -16,7 +16,7 @@ function Introduction({ ...props }: introductionProps) {
         <p className={styles.content}>
           Olá, meu nome é Gabriel Alencar, sou desenvolvedor fullstack
           freelancer especializado na MERN Stack, com conhecimentos em UI&UX,
-          Typescript, MySQL e PHP.
+          Typescript, NextJs, NestJs, Prisma e MySQL.
         </p>
       </div>
 
