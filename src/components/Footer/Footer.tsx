@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 import Seta from "../SVGComponents/Seta";
 
+
 function Footer() {
   return (
     <footer className={styles.containerFooter}>

@@ -2,10 +2,13 @@
 import logoPUCPR from '../assets/img/Certificates/logo-PUCPR.jpg';
 import logoUFPE from '../assets/img/Certificates/Logo-ufpe-2-2.jpg';
 import certificadoWebCompleto from '../assets/img/Certificates/certificadoWebCompleto.png';
+import formacaoNode from '../assets/img/Certificates/Curso_NodeJs_Udemy.png';
 import ReactCompleto from '../assets/img/Certificates/React_Completo.png';
 import ReactTypescript from '../assets/img/Certificates/React_Typescript.png';
 import TypescriptIniciantes from '../assets/img/Certificates/Typescript_Iniciantes.png';
 import GitGithubGuanabara from '../assets/img/Certificates/CursoEmVideo_GITGITHUB.png';
+import HtmlCssGuanabara1 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_1.png';
+import HtmlCssGuanabara2 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_2.png';
 import CSSGridLayout from '../assets/img/Certificates/CSS_Grid_Layout.png';
 import CSSAvancado from '../assets/img/Certificates/CSS_Avancado.png';
 import CSSFlexbox from '../assets/img/Certificates/CSS_Flexbox.png';
@@ -46,18 +49,25 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     dateEnd: "Jul/2025",
   },
   {
-    src: certificadoWebCompleto,
-    pdf: PDF_certificadoWebCompleto,
-    describe: "Curso Online de Desenvolvimento Web Completo - Udemy - 117 horas",
-    dateStart: "Abr/2023",
-    dateEnd: "Dez/2023",
-  },
-  {
     src: FreeCodeCamp_JS,
     pdf: 'https://www.freecodecamp.org/certification/Galencar/javascript-algorithms-and-data-structures',
     describe: "Certificado de Estrutura de Dados com Javascript na FreeCodeCamp",
     dateStart: "Set/2023",
     dateEnd: "Jan/2023",
+  },
+  {
+    src: certificadoWebCompleto,
+    pdf: "https://www.udemy.com/certificate/UC-17275255-353e-4174-b784-4bd63cd6c795/",
+    describe: "Curso Online de NodeJs - Udemy - 50 horas",
+    dateStart: "01/2024",
+    dateEnd: "02/2024",
+  },
+  {
+    src: formacaoNode,
+    pdf: PDF_certificadoWebCompleto,
+    describe: "Curso Online de Desenvolvimento Web Completo - Udemy - 117 horas",
+    dateStart: "Abr/2023",
+    dateEnd: "Dez/2023",
   },
   {
     src: logoUFPE,
@@ -79,6 +89,20 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     describe: "Curso Online de Git/Github no Curso em Video - 20 horas",
     dateStart: "Ago/2023",
     dateEnd: "Ago/2023",
+  },
+  {
+    src: HtmlCssGuanabara1,
+    pdf: "https://www.cursoemvideo.com/certificates/certificado/?course_id=51689&cert-nonce=070dfbc924",
+    describe: "Curso Online de HTML/CSS - Módulo 1 no Curso em Video - 40 horas",
+    dateStart: "Set/2022",
+    dateEnd: "Set/2022",
+  },
+  {
+    src: HtmlCssGuanabara2,
+    pdf: "https://www.cursoemvideo.com/certificates/certificado/?course_id=59254&cert-nonce=6f31e9adfc",
+    describe: "Curso Online de HTML/CSS - Módulo 2 no Curso em Video - 40 horas",
+    dateStart: "Set/2022",
+    dateEnd: "Set/2022",
   },
   {
     src: UiDesign,

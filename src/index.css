@@ -147,6 +147,7 @@ ul, li, a {
   filter: blur(0);
   transition: 1s;
 }
+  
 
 @media (max-width: 1400px) {
   .titleDetails {
