@@ -68,14 +68,14 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     dateEnd: "Dez/2021",
   },
   {
-    src: certificadoWebCompleto,
+    src: formacaoNode,
     pdf: CertificadoNodeJs,
     describe: "Curso Online de NodeJs - Udemy - 50 horas",
     dateStart: "01/2024",
     dateEnd: "02/2024",
   },
   {
-    src: formacaoNode,
+    src: certificadoWebCompleto,
     pdf: PDF_certificadoWebCompleto,
     describe: "Curso Online de Desenvolvimento Web Completo - Udemy - 117 horas",
     dateStart: "Abr/2023",
