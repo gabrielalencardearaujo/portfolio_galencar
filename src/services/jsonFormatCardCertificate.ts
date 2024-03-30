@@ -9,6 +9,7 @@ import TypescriptIniciantes from '../assets/img/Certificates/Typescript_Iniciant
 import GitGithubGuanabara from '../assets/img/Certificates/CursoEmVideo_GITGITHUB.png';
 import HtmlCssGuanabara1 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_1.png';
 import HtmlCssGuanabara2 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_2.png';
+import HtmlCssGuanabara3 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_3.png';
 import CSSGridLayout from '../assets/img/Certificates/CSS_Grid_Layout.png';
 import CSSAvancado from '../assets/img/Certificates/CSS_Avancado.png';
 import CSSFlexbox from '../assets/img/Certificates/CSS_Flexbox.png';
@@ -113,6 +114,13 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     src: HtmlCssGuanabara2,
     pdf: "https://www.cursoemvideo.com/certificates/certificado/?course_id=59254&cert-nonce=6f31e9adfc",
     describe: "Curso Online de HTML/CSS - Módulo 2 no Curso em Video - 40 horas",
+    dateStart: "Set/2022",
+    dateEnd: "Set/2022",
+  },
+  {
+    src: HtmlCssGuanabara3,
+    pdf: "https://www.cursoemvideo.com/certificates/certificado/?course_id=87672&cert-nonce=be6e1baf89",
+    describe: "Curso Online de HTML/CSS - Módulo 3 no Curso em Video - 40 horas",
     dateStart: "Set/2022",
     dateEnd: "Set/2022",
   },
