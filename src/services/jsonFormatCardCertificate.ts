@@ -16,7 +16,9 @@ import SASS from '../assets/img/Certificates/CSS_SASS.png';
 import UiDesign from '../assets/img/Certificates/UI_Design_Iniciantes.png';
 import JQuery from '../assets/img/Certificates/JQuery.png';
 import Hackathon2018 from '../assets/img/Certificates/hackathon.png';
-import FreeCodeCamp_JS from '../assets/img/Certificates/FreeCodeCamp_Javascript.png'
+import FreeCodeCamp_JS from '../assets/img/Certificates/FreeCodeCamp_Javascript.png';
+import Docker from '../assets/img/Certificates/certificado-docker.png';
+import NextJs from '../assets/img/Certificates/certificado-next-origamid.png';
 
 // Imports PDFs:
 import PDF_certificadoWebCompleto from '../assets/img/Certificates/PDFs/DesenvolvimentoWeb_Udemy.pdf';
@@ -31,7 +33,10 @@ import CertificadoReact from '../assets/img/Certificates/PDFs/certificado-react.
 import CertificadoReactComTypescript from '../assets/img/Certificates/PDFs/certificado-reactTSX.pdf';
 import DiplomaUFPE from '../assets/img/Certificates/PDFs/Diploma_UFPE_Gabriel_Alencar.pdf';
 import Hackathon from '../assets/img/Certificates/PDFs/hackathon.pdf';
+import CertificadoDocker from '../assets/img/Certificates/PDFs/certificado-docker.pdf';
 import CertificadoGITGITHUB from '../assets/img/Certificates/PDFs/Gabriel-Alencar-de-Araujo-Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf';
+import CertificadoNodeJs from '../assets/img/Certificates/PDFs/certificado-nodejs.pdf';
+import CertificadoNextJs from '../assets/img/Certificates/PDFs/certificado-nextjs-origamid.pdf';
 
 export type TypeJsonFormation = {
   src: string,
@@ -56,8 +61,15 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     dateEnd: "Jan/2023",
   },
   {
+    src: logoUFPE,
+    pdf: DiplomaUFPE,
+    describe: "Formado em Matemática pela Universidade Federal de Pernambuco - UFPE",
+    dateStart: "Mar/2016",
+    dateEnd: "Dez/2021",
+  },
+  {
     src: certificadoWebCompleto,
-    pdf: "https://www.udemy.com/certificate/UC-17275255-353e-4174-b784-4bd63cd6c795/",
+    pdf: CertificadoNodeJs,
     describe: "Curso Online de NodeJs - Udemy - 50 horas",
     dateStart: "01/2024",
     dateEnd: "02/2024",
@@ -70,11 +82,11 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     dateEnd: "Dez/2023",
   },
   {
-    src: logoUFPE,
-    pdf: DiplomaUFPE,
-    describe: "Formado em Matemática pela Universidade Federal de Pernambuco - UFPE",
-    dateStart: "Mar/2016",
-    dateEnd: "Dez/2021",
+    src: Docker,
+    pdf: CertificadoDocker,
+    describe: "Curso de Docker e Kubernetes - Udemy - 12 horas",
+    dateStart: "Mar/2024",
+    dateEnd: "Mar/2024",
   },
   {
     src: Hackathon2018,
@@ -138,6 +150,13 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     describe: "Curso Online de Typescript na Origamid - 22 horas",
     dateStart: "Set/2023",
     dateEnd: "Set/2023",
+  },
+  {
+    src: NextJs,
+    pdf: CertificadoNextJs,
+    describe: "Curso Online de NextJs - 22 horas",
+    dateStart: "Mar/2024",
+    dateEnd: "Mar/2024",
   },
   {
     src: CSSGridLayout,
