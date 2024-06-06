@@ -10,6 +10,7 @@ import GitGithubGuanabara from '../assets/img/Certificates/CursoEmVideo_GITGITHU
 import HtmlCssGuanabara1 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_1.png';
 import HtmlCssGuanabara2 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_2.png';
 import HtmlCssGuanabara3 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_3.png';
+import HtmlCssGuanabara4 from '../assets/img/Certificates/CursoEmVideo_HTML-CSS_4.png';
 import CSSGridLayout from '../assets/img/Certificates/CSS_Grid_Layout.png';
 import CSSAvancado from '../assets/img/Certificates/CSS_Avancado.png';
 import CSSFlexbox from '../assets/img/Certificates/CSS_Flexbox.png';
@@ -20,6 +21,8 @@ import Hackathon2018 from '../assets/img/Certificates/hackathon.png';
 import FreeCodeCamp_JS from '../assets/img/Certificates/FreeCodeCamp_Javascript.png';
 import Docker from '../assets/img/Certificates/certificado-docker.png';
 import NextJs from '../assets/img/Certificates/certificado-next-origamid.png';
+import CursoJavaIntermediarioLoiane from '../assets/img/Certificates/CursoIntermediarioJavaLoiane.png';
+import CursoJavaBasicoLoiane from '../assets/img/Certificates/CursoBasicoJavaLoiane.png';
 
 // Imports PDFs:
 import PDF_certificadoWebCompleto from '../assets/img/Certificates/PDFs/DesenvolvimentoWeb_Udemy.pdf';
@@ -97,6 +100,20 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     dateEnd: "Mai/2018",
   },
   {
+    src: CursoJavaIntermediarioLoiane,
+    pdf: "https://loiane.training/certificado/4THqFbtPs4cvUPZCh1TV",
+    describe: "Curso Intermediário de Java 8+ - Loiane Groover",
+    dateStart: "Maio/2024",
+    dateEnd: "Maio/2024",
+  },
+  {
+    src: CursoJavaBasicoLoiane,
+    pdf: "https://loiane.training/certificado/r7iwEKwE5Zt0zIT5tA0w",
+    describe: "Curso Básico de Java 8+ - Loiane Groover",
+    dateStart: "Maio/2024",
+    dateEnd: "Maio/2024",
+  },
+  {
     src: GitGithubGuanabara,
     pdf: CertificadoGITGITHUB,
     describe: "Curso Online de Git/Github no Curso em Video - 20 horas",
@@ -123,6 +140,13 @@ export const jsonFormatCardCertificate: TypeJsonFormation[] = [
     describe: "Curso Online de HTML/CSS - Módulo 3 no Curso em Video - 40 horas",
     dateStart: "Set/2022",
     dateEnd: "Set/2022",
+  },
+  {
+    src: HtmlCssGuanabara4,
+    pdf: "https://www.cursoemvideo.com/certificates/certificado/?course_id=158897&cert-nonce=71bf96e229",
+    describe: "Curso Online de HTML/CSS - Módulo 4 no Curso em Video - 40 horas",
+    dateStart: "Out/2022",
+    dateEnd: "Out/2022",
   },
   {
     src: UiDesign,
